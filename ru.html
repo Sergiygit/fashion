@@ -1,31 +1,26 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Fashion Design Class</title>
-    <link rel="shortcut icon" type="image/png" href="img/icons/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="img/icons/favicon.png" />
 
     <!-- libs -->
-    <link rel="stylesheet" href="libs/aos.css"/>
-    <link rel="stylesheet" href="libs/bootstrap-grid.min.css"/>
-    <link rel="stylesheet" href="libs/jquery.fancybox.css"/>
-    <link rel="stylesheet" href="libs/magnific-popup.css"/>
-    <link rel="stylesheet" href="libs/select2.min.css"/>
+    <link rel="stylesheet" href="libs/aos.css" />
+    <link rel="stylesheet" href="libs/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="libs/jquery.fancybox.css" />
+    <link rel="stylesheet" href="libs/magnific-popup.css" />
+    <link rel="stylesheet" href="libs/select2.min.css" />
 
     <!-- css -->
-    <link rel="stylesheet" href="css/reset.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
     <!-- libs -->
-    <script
-            defer
-            src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-    ></script>
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="libs/jquery.magnific-popup.min.js"></script>
     <script defer src="libs/jquery.fancybox.min.js"></script>
     <script defer src="libs/select2.full.min.js"></script>
@@ -33,2366 +28,1838 @@
     <!-- js -->
     <script defer src="js/custom.js"></script>
 </head>
+
 <body class="ishome">
-<div class="popup-call mfp-hide">
-    <form type="POST" class="popup-call__form">
-        <div class="success">
-            <div class="success__title">Заявка принята</div>
-            <div class="success__text">
-                Ваша заявка отправлена и будет рассмотрена в ближайшее время
-            </div>
-        </div>
-        <input type="hidden" name="project_name" value="Fashion design class"/>
-        <input
-                type="hidden"
-                name="admin_email"
-                value="911.alina.15@gmail.com"
-        />
-        <input type="hidden" name="form_subject" value="Заявка на звонок"/>
-        <div class="popup-call__title h2">Заполните форму обратной связи</div>
-        <p class="popup-call__text">И мы перезвоним вам в ближайшее время</p>
-        <input type="text" placeholder="Ваше имя" name="Имя" required/>
-        <input type="tel" placeholder="Телефон" name="Телефон" required/>
-        <button type="submit" class="btn">Отправить заявку</button>
-
-        <p class="form-policy">
-            При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой
-            персональных данных
-        </p>
-    </form>
-    <div class="popup-call__contacts">
-        <span>Или напишите нам:</span>
-        <div class="popup-call__img">
-            <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
-                <img src="img/icons/tg.svg" alt=""/>
-            </a>
-            <a
-                    href="https://wa.me/380504800015?text=Здравствуйте."
-                    target="_blank"
-            >
-                <img src="img/icons/wu.svg" alt=""/>
-            </a>
-            <a href="viber://chat?number=%2B380504800015" target="_blank">
-                <img src="img/icons/viber.svg" alt=""/>
-            </a>
-            <a
-                    href="https://www.facebook.com/fashion.design.class"
-                    target="_blank"
-            >
-                <img src="img/icons/fb.svg" alt=""/>
-            </a>
-        </div>
-    </div>
-</div>
-
-<div class="popup-application popup-application1 mfp-hide">
-    <form type="POST" class="popup-application__form">
-        <div class="success">
-            <div class="success__title">Заявка принята</div>
-            <div class="success__text">
-                Ваша заявка отправлена и будет рассмотрена в ближайшее время
-            </div>
-        </div>
-        <input type="hidden" name="project_name" value="Fashion design class"/>
-        <input
-                type="hidden"
-                name="admin_email"
-                value="911.alina.15@gmail.com"
-        />
-        <input
-                type="hidden"
-                name="form_subject"
-                value="Fashion-иллюстрация очно"
-        />
-        <div class="popup-application__title h2">Заполните заявку</div>
-        <p class="popup-application__text">
-            Укажите свои данные и мы свяжемся с вами в ближайшее время
-        </p>
-        <input type="text" placeholder="Ваше имя" name="Имя" required/>
-        <input type="tel" placeholder="Телефон" name="Телефон" required/>
-        <div class="box">
-            <div class="popup-application__select">
-                <select
-                        class="select2"
-                        name="Мессенджер"
-                        data-placeholder="Мессенджер"
-                >
-                    <option></option>
-                    <option value="Telegram">Telegram</option>
-                    <option value="Viber">Viber</option>
-                    <option value="WhatsApp">WhatsApp</option>
-                </select>
-            </div>
-            <input
-                    type="text"
-                    name="Имя или телефон мессенджера"
-                    required
-                    class="popup-application__select-input"
-                    placeholder="Телефон мессенджера"
-            />
-        </div>
-
-        <button type="submit" class="btn">Отправить заявку</button>
-
-        <p class="form-policy">
-            При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой
-            персональных данных
-        </p>
-    </form>
-    <div class="popup-application__contacts">
-        <span>Или напишите нам:</span>
-        <div class="popup-call__img">
-            <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
-                <img src="img/icons/tg.svg" alt=""/>
-            </a>
-            <a
-                    href="https://wa.me/380504800015?text=Здравствуйте."
-                    target="_blank"
-            >
-                <img src="img/icons/wu.svg" alt=""/>
-            </a>
-            <a href="viber://chat?number=%2B380504800015" target="_blank">
-                <img src="img/icons/viber.svg" alt=""/>
-            </a>
-            <a
-                    href="https://www.facebook.com/fashion.design.class"
-                    target="_blank"
-            >
-                <img src="img/icons/fb.svg" alt=""/>
-            </a>
-        </div>
-    </div>
-</div>
-<div class="popup-application popup-application2 mfp-hide">
-    <form type="POST" class="popup-application__form">
-        <div class="success">
-            <div class="success__title">Заявка принята</div>
-            <div class="success__text">
-                Ваша заявка отправлена и будет рассмотрена в ближайшее время
-            </div>
-        </div>
-        <input type="hidden" name="project_name" value="Fashion design class"/>
-        <input
-                type="hidden"
-                name="admin_email"
-                value="911.alina.15@gmail.com"
-        />
-        <input type="hidden" name="form_subject" value="Владелец бренда очно"/>
-        <div class="popup-application__title h2">Заполните заявку</div>
-        <p class="popup-application__text">
-            Укажите свои данные и мы свяжемся с вами в ближайшее время
-        </p>
-        <input type="text" placeholder="Ваше имя" name="Имя" required/>
-        <input type="tel" placeholder="Телефон" name="Телефон" required/>
-        <div class="box">
-            <div class="popup-application__select">
-                <select
-                        class="select2"
-                        name="Мессенджер"
-                        data-placeholder="Мессенджер"
-                >
-                    <option></option>
-                    <option value="Telegram">Telegram</option>
-                    <option value="Viber">Viber</option>
-                    <option value="WhatsApp">WhatsApp</option>
-                </select>
-            </div>
-            <input
-                    type="text"
-                    name="Имя или телефон мессенджера"
-                    required
-                    class="popup-application__select-input"
-                    placeholder="Телефон мессенджера"
-            />
-        </div>
-
-        <button type="submit" class="btn">Отправить заявку</button>
-
-        <p class="form-policy">
-            При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой
-            персональных данных
-        </p>
-    </form>
-    <div class="popup-application__contacts">
-        <span>Или напишите нам:</span>
-        <div class="popup-call__img">
-            <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
-                <img src="img/icons/tg.svg" alt=""/>
-            </a>
-            <a
-                    href="https://wa.me/380504800015?text=Здравствуйте."
-                    target="_blank"
-            >
-                <img src="img/icons/wu.svg" alt=""/>
-            </a>
-            <a href="viber://chat?number=%2B380504800015" target="_blank">
-                <img src="img/icons/viber.svg" alt=""/>
-            </a>
-            <a
-                    href="https://www.facebook.com/fashion.design.class"
-                    target="_blank"
-            >
-                <img src="img/icons/fb.svg" alt=""/>
-            </a>
-        </div>
-    </div>
-</div>
-<div class="popup-application popup-application3 mfp-hide">
-    <form type="POST" class="popup-application__form">
-        <div class="success">
-            <div class="success__title">Заявка принята</div>
-            <div class="success__text">
-                Ваша заявка отправлена и будет рассмотрена в ближайшее время
-            </div>
-        </div>
-        <input type="hidden" name="project_name" value="Fashion design class"/>
-        <input
-                type="hidden"
-                name="admin_email"
-                value="911.alina.15@gmail.com"
-        />
-        <input
-                type="hidden"
-                name="form_subject"
-                value="Дизайнер профессионал очно"
-        />
-        <div class="popup-application__title h2">Заполните заявку</div>
-        <p class="popup-application__text">
-            Укажите свои данные и мы свяжемся с вами в ближайшее время
-        </p>
-        <input type="text" placeholder="Ваше имя" name="Имя" required/>
-        <input type="tel" placeholder="Телефон" name="Телефон" required/>
-        <div class="box">
-            <div class="popup-application__select">
-                <select
-                        class="select2"
-                        name="Мессенджер"
-                        data-placeholder="Мессенджер"
-                >
-                    <option></option>
-                    <option value="Telegram">Telegram</option>
-                    <option value="Viber">Viber</option>
-                    <option value="WhatsApp">WhatsApp</option>
-                </select>
-            </div>
-            <input
-                    type="text"
-                    name="Имя или телефон мессенджера"
-                    required
-                    class="popup-application__select-input"
-                    placeholder="Телефон мессенджера"
-            />
-        </div>
-
-        <button type="submit" class="btn">Отправить заявку</button>
-
-        <p class="form-policy">
-            При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой
-            персональных данных
-        </p>
-    </form>
-    <div class="popup-application__contacts">
-        <span>Или напишите нам:</span>
-        <div class="popup-call__img">
-            <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
-                <img src="img/icons/tg.svg" alt=""/>
-            </a>
-            <a
-                    href="https://wa.me/380504800015?text=Здравствуйте."
-                    target="_blank"
-            >
-                <img src="img/icons/wu.svg" alt=""/>
-            </a>
-            <a href="viber://chat?number=%2B380504800015" target="_blank">
-                <img src="img/icons/viber.svg" alt=""/>
-            </a>
-            <a
-                    href="https://www.facebook.com/fashion.design.class"
-                    target="_blank"
-            >
-                <img src="img/icons/fb.svg" alt=""/>
-            </a>
-        </div>
-    </div>
-</div>
-<div class="popup-application popup-application4 mfp-hide">
-    <form type="POST" class="popup-application__form">
-        <div class="success">
-            <div class="success__title">Заявка принята</div>
-            <div class="success__text">
-                Ваша заявка отправлена и будет рассмотрена в ближайшее время
-            </div>
-        </div>
-        <input type="hidden" name="project_name" value="Fashion design class"/>
-        <input
-                type="hidden"
-                name="admin_email"
-                value="911.alina.15@gmail.com"
-        />
-        <input
-                type="hidden"
-                name="form_subject"
-                value="Fashion-иллюстрация Онлайн"
-        />
-        <div class="popup-application__title h2">Заполните заявку</div>
-        <p class="popup-application__text">
-            Укажите свои данные и мы свяжемся с вами в ближайшее время
-        </p>
-        <input type="text" placeholder="Ваше имя" name="Имя" required/>
-        <input type="tel" placeholder="Телефон" name="Телефон" required/>
-        <div class="box">
-            <div class="popup-application__select">
-                <select
-                        class="select2"
-                        name="Мессенджер"
-                        data-placeholder="Мессенджер"
-                >
-                    <option></option>
-                    <option value="Telegram">Telegram</option>
-                    <option value="Viber">Viber</option>
-                    <option value="WhatsApp">WhatsApp</option>
-                </select>
-            </div>
-            <input
-                    type="text"
-                    name="Имя или телефон мессенджера"
-                    required
-                    class="popup-application__select-input"
-                    placeholder="Телефон мессенджера"
-            />
-        </div>
-
-        <button type="submit" class="btn">Отправить заявку</button>
-
-        <p class="form-policy">
-            При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой
-            персональных данных
-        </p>
-    </form>
-    <div class="popup-application__contacts">
-        <span>Или напишите нам:</span>
-        <div class="popup-call__img">
-            <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
-                <img src="img/icons/tg.svg" alt=""/>
-            </a>
-            <a
-                    href="https://wa.me/380504800015?text=Здравствуйте."
-                    target="_blank"
-            >
-                <img src="img/icons/wu.svg" alt=""/>
-            </a>
-            <a href="viber://chat?number=%2B380504800015" target="_blank">
-                <img src="img/icons/viber.svg" alt=""/>
-            </a>
-            <a
-                    href="https://www.facebook.com/fashion.design.class"
-                    target="_blank"
-            >
-                <img src="img/icons/fb.svg" alt=""/>
-            </a>
-        </div>
-    </div>
-</div>
-<div class="popup-application popup-application5 mfp-hide">
-    <form type="POST" class="popup-application__form">
-        <div class="success">
-            <div class="success__title">Заявка принята</div>
-            <div class="success__text">
-                Ваша заявка отправлена и будет рассмотрена в ближайшее время
-            </div>
-        </div>
-        <input type="hidden" name="project_name" value="Fashion design class"/>
-        <input
-                type="hidden"
-                name="admin_email"
-                value="911.alina.15@gmail.com"
-        />
-        <input
-                type="hidden"
-                name="form_subject"
-                value="Владелец бренда Онлайн"
-        />
-        <div class="popup-application__title h2">Заполните заявку</div>
-        <p class="popup-application__text">
-            Укажите свои данные и мы свяжемся с вами в ближайшее время
-        </p>
-        <input type="text" placeholder="Ваше имя" name="Имя" required/>
-        <input type="tel" placeholder="Телефон" name="Телефон" required/>
-        <div class="box">
-            <div class="popup-application__select">
-                <select
-                        class="select2"
-                        name="Мессенджер"
-                        data-placeholder="Мессенджер"
-                >
-                    <option></option>
-                    <option value="Telegram">Telegram</option>
-                    <option value="Viber">Viber</option>
-                    <option value="WhatsApp">WhatsApp</option>
-                </select>
-            </div>
-            <input
-                    type="text"
-                    name="Имя или телефон мессенджера"
-                    required
-                    class="popup-application__select-input"
-                    placeholder="Телефон мессенджера"
-            />
-        </div>
-
-        <button type="submit" class="btn">Отправить заявку</button>
-
-        <p class="form-policy">
-            При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой
-            персональных данных
-        </p>
-    </form>
-    <div class="popup-application__contacts">
-        <span>Или напишите нам:</span>
-        <div class="popup-call__img">
-            <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
-                <img src="img/icons/tg.svg" alt=""/>
-            </a>
-            <a
-                    href="https://wa.me/380504800015?text=Здравствуйте."
-                    target="_blank"
-            >
-                <img src="img/icons/wu.svg" alt=""/>
-            </a>
-            <a href="viber://chat?number=%2B380504800015" target="_blank">
-                <img src="img/icons/viber.svg" alt=""/>
-            </a>
-            <a
-                    href="https://www.facebook.com/fashion.design.class"
-                    target="_blank"
-            >
-                <img src="img/icons/fb.svg" alt=""/>
-            </a>
-        </div>
-    </div>
-</div>
-<div class="popup-application popup-application6 mfp-hide">
-    <form type="POST" class="popup-application__form">
-        <div class="success">
-            <div class="success__title">Заявка принята</div>
-            <div class="success__text">
-                Ваша заявка отправлена и будет рассмотрена в ближайшее время
-            </div>
-        </div>
-        <input type="hidden" name="project_name" value="Fashion design class"/>
-        <input
-                type="hidden"
-                name="admin_email"
-                value="911.alina.15@gmail.com"
-        />
-        <input
-                type="hidden"
-                name="form_subject"
-                value="Дизайнер профессионал Онлайн"
-        />
-        <div class="popup-application__title h2">Заполните заявку</div>
-        <p class="popup-application__text">
-            Укажите свои данные и мы свяжемся с вами в ближайшее время
-        </p>
-        <input type="text" placeholder="Ваше имя" name="Имя" required/>
-        <input type="tel" placeholder="Телефон" name="Телефон" required/>
-        <div class="box">
-            <div class="popup-application__select">
-                <select
-                        class="select2"
-                        name="Мессенджер"
-                        data-placeholder="Мессенджер"
-                >
-                    <option></option>
-                    <option value="Telegram">Telegram</option>
-                    <option value="Viber">Viber</option>
-                    <option value="WhatsApp">WhatsApp</option>
-                </select>
-            </div>
-            <input
-                    type="text"
-                    name="Имя или телефон мессенджера"
-                    required
-                    class="popup-application__select-input"
-                    placeholder="Телефон мессенджера"
-            />
-        </div>
-
-        <button type="submit" class="btn">Отправить заявку</button>
-
-        <p class="form-policy">
-            При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой
-            персональных данных
-        </p>
-    </form>
-    <div class="popup-application__contacts">
-        <span>Или напишите нам:</span>
-        <div class="popup-call__img">
-            <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
-                <img src="img/icons/tg.svg" alt=""/>
-            </a>
-            <a
-                    href="https://wa.me/380504800015?text=Здравствуйте."
-                    target="_blank"
-            >
-                <img src="img/icons/wu.svg" alt=""/>
-            </a>
-            <a href="viber://chat?number=%2B380504800015" target="_blank">
-                <img src="img/icons/viber.svg" alt=""/>
-            </a>
-            <a
-                    href="https://www.facebook.com/fashion.design.class"
-                    target="_blank"
-            >
-                <img src="img/icons/fb.svg" alt=""/>
-            </a>
-        </div>
-    </div>
-</div>
-<div class="popup-application popup-application7 mfp-hide">
-    <form type="POST" class="popup-application__form">
-        <div class="success">
-            <div class="success__title">Заявка принята</div>
-            <div class="success__text">
-                Ваша заявка отправлена и будет рассмотрена в ближайшее время
-            </div>
-        </div>
-        <input type="hidden" name="project_name" value="Fashion design class"/>
-        <input
-                type="hidden"
-                name="admin_email"
-                value="911.alina.15@gmail.com"
-        />
-        <input
-                type="hidden"
-                name="form_subject"
-                value="Записаться на вебинар (Главный экран)"
-        />
-        <div class="popup-application__title h2">Заполните заявку</div>
-        <p class="popup-application__text">
-            Укажите свои данные и мы свяжемся с вами в ближайшее время
-        </p>
-        <input type="text" placeholder="Ваше имя" name="Имя" required/>
-        <input type="tel" placeholder="Телефон" name="Телефон" required/>
-        <div class="box">
-            <div class="popup-application__select">
-                <select
-                        class="select2"
-                        name="Мессенджер"
-                        data-placeholder="Мессенджер"
-                >
-                    <option></option>
-                    <option value="Telegram">Telegram</option>
-                    <option value="Viber">Viber</option>
-                    <option value="WhatsApp">WhatsApp</option>
-                </select>
-            </div>
-            <input
-                    type="text"
-                    name="Имя или телефон мессенджера"
-                    required
-                    class="popup-application__select-input"
-                    placeholder="Телефон мессенджера"
-            />
-        </div>
-
-        <button type="submit" class="btn">Отправить заявку</button>
-
-        <p class="form-policy">
-            При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой
-            персональных данных
-        </p>
-    </form>
-    <div class="popup-application__contacts">
-        <span>Или напишите нам:</span>
-        <div class="popup-call__img">
-            <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
-                <img src="img/icons/tg.svg" alt=""/>
-            </a>
-            <a
-                    href="https://wa.me/380504800015?text=Здравствуйте."
-                    target="_blank"
-            >
-                <img src="img/icons/wu.svg" alt=""/>
-            </a>
-            <a href="viber://chat?number=%2B380504800015" target="_blank">
-                <img src="img/icons/viber.svg" alt=""/>
-            </a>
-            <a
-                    href="https://www.facebook.com/fashion.design.class"
-                    target="_blank"
-            >
-                <img src="img/icons/fb.svg" alt=""/>
-            </a>
-        </div>
-    </div>
-</div>
-<div class="popup-application popup-application8 mfp-hide">
-    <form type="POST" class="popup-application__form">
-        <div class="success">
-            <div class="success__title">Заявка принята</div>
-            <div class="success__text">
-                Ваша заявка отправлена и будет рассмотрена в ближайшее время
-            </div>
-        </div>
-        <input type="hidden" name="project_name" value="Fashion design class"/>
-        <input
-                type="hidden"
-                name="admin_email"
-                value="911.alina.15@gmail.com"
-        />
-        <input
-                type="hidden"
-                name="form_subject"
-                value="Записаться на вебинар"
-        />
-        <div class="popup-application__title h2">Заполните заявку</div>
-        <p class="popup-application__text">
-            Укажите свои данные и мы свяжемся с вами в ближайшее время
-        </p>
-        <input type="text" placeholder="Ваше имя" name="Имя" required/>
-        <input type="tel" placeholder="Телефон" name="Телефон" required/>
-        <div class="box">
-            <div class="popup-application__select">
-                <select
-                        class="select2"
-                        name="Мессенджер"
-                        data-placeholder="Мессенджер"
-                >
-                    <option></option>
-                    <option value="Telegram">Telegram</option>
-                    <option value="Viber">Viber</option>
-                    <option value="WhatsApp">WhatsApp</option>
-                </select>
-            </div>
-            <input
-                    type="text"
-                    name="Имя или телефон мессенджера"
-                    required
-                    class="popup-application__select-input"
-                    placeholder="Телефон мессенджера"
-            />
-        </div>
-
-        <button type="submit" class="btn">Отправить заявку</button>
-
-        <p class="form-policy">
-            При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой
-            персональных данных
-        </p>
-    </form>
-    <div class="popup-application__contacts">
-        <span>Или напишите нам:</span>
-        <div class="popup-call__img">
-            <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
-                <img src="img/icons/tg.svg" alt=""/>
-            </a>
-            <a
-                    href="https://wa.me/380504800015?text=Здравствуйте."
-                    target="_blank"
-            >
-                <img src="img/icons/wu.svg" alt=""/>
-            </a>
-            <a href="viber://chat?number=%2B380504800015" target="_blank">
-                <img src="img/icons/viber.svg" alt=""/>
-            </a>
-            <a
-                    href="https://www.facebook.com/fashion.design.class"
-                    target="_blank"
-            >
-                <img src="img/icons/fb.svg" alt=""/>
-            </a>
-        </div>
-    </div>
-</div>
-
-<div class="popup-application popup-application9 mfp-hide">
-    <form type="POST" class="popup-payment__form">
-        <input type="hidden" name="project_name" value="Fashion design class"/>
-        <input
-                type="hidden"
-                name="admin_email"
-                value="911.alina.15@gmail.com"
-        />
-        <input type="hidden" name="form_subject" value="Заявка на оплату"/>
-        <div class="popup-call__title h2">
-            Заполните заявку оплаты
-        </div>
-        <p class="popup-call__text">Укажите свои персональные данные</p>
-        <input type="text" placeholder="Ваше имя" name="Имя" required/>
-        <input type="tel" placeholder="Телефон" name="Телефон" required/>
-        <input type="email" placeholder="Электронная почта" name="E-mail" required/>
-        <button type="submit" class="btn">Отправить заявку</button>
-
-        <p class="form-policy">
-            Нажимая на кнопку я согласен с условиями<br>
-            <a href="docs/oferta.pdf" target="_blank">договора оферты и правилами оплаты и возврата</a>
-        </p>
-    </form>
-</div>
-
-<section class="main">
-    <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <div class="header-burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+    <div class="popup-call mfp-hide">
+        <form type="POST" class="popup-call__form">
+            <div class="success">
+                <div class="success__title">Заявка принята</div>
+                <div class="success__text">
+                    Ваша заявка отправлена и будет рассмотрена в ближайшее время
                 </div>
+            </div>
+            <input type="hidden" name="project_name" value="Fashion design class" />
+            <input type="hidden" name="admin_email" value="911.alina.15@gmail.com" />
+            <input type="hidden" name="form_subject" value="Заявка на звонок" />
+            <div class="popup-call__title h2">Заполните форму обратной связи</div>
+            <p class="popup-call__text">И мы перезвоним вам в ближайшее время</p>
+            <input type="text" placeholder="Ваше имя" name="Имя" required/>
+            <input type="tel" placeholder="Телефон" name="Телефон" required/>
+            <button type="submit" class="btn">Отправить заявку</button>
 
-                <div class="header-logo">
-                    <a href="#" class="header-logo__link">
-                        <img src="img/icons/logo.svg" alt="логотип"/>
-                    </a>
+            <p class="form-policy">
+                При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой персональных данных
+            </p>
+        </form>
+        <div class="popup-call__contacts">
+            <span>Или напишите нам:</span>
+            <div class="popup-call__img">
+                <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
+                    <img src="img/icons/tg.svg" alt="" />
+                </a>
+                <a href="https://wa.me/380504800015?text=Здравствуйте." target="_blank">
+                    <img src="img/icons/wu.svg" alt="" />
+                </a>
+                <a href="viber://chat?number=%2B380504800015" target="_blank">
+                    <img src="img/icons/viber.svg" alt="" />
+                </a>
+                <a href="https://www.facebook.com/fashion.design.class" target="_blank">
+                    <img src="img/icons/fb.svg" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-application popup-application1 mfp-hide">
+        <form type="POST" class="popup-application__form">
+            <div class="success">
+                <div class="success__title">Заявка принята</div>
+                <div class="success__text">
+                    Ваша заявка отправлена и будет рассмотрена в ближайшее время
                 </div>
+            </div>
+            <input type="hidden" name="project_name" value="Fashion design class" />
+            <input type="hidden" name="admin_email" value="911.alina.15@gmail.com" />
+            <input type="hidden" name="form_subject" value="Fashion-иллюстрация очно" />
+            <div class="popup-application__title h2">Заполните заявку</div>
+            <p class="popup-application__text">
+                Укажите свои данные и мы свяжемся с вами в ближайшее время
+            </p>
+            <input type="text" placeholder="Ваше имя" name="Имя" required/>
+            <input type="tel" placeholder="Телефон" name="Телефон" required/>
+            <div class="box">
+                <div class="popup-application__select">
+                    <select class="select2" name="Мессенджер" data-placeholder="Мессенджер">
+                    <option></option>
+                    <option value="Telegram">Telegram</option>
+                    <option value="Viber">Viber</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                </select>
+                </div>
+                <input type="text" name="Имя или телефон мессенджера" required class="popup-application__select-input" placeholder="Телефон мессенджера" />
+            </div>
 
-                <div class="header-right">
-                    <a href="tel:+380677744910" class="header-call">
+            <button type="submit" class="btn">Отправить заявку</button>
+
+            <p class="form-policy">
+                При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой персональных данных
+            </p>
+        </form>
+        <div class="popup-application__contacts">
+            <span>Или напишите нам:</span>
+            <div class="popup-call__img">
+                <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
+                    <img src="img/icons/tg.svg" alt="" />
+                </a>
+                <a href="https://wa.me/380504800015?text=Здравствуйте." target="_blank">
+                    <img src="img/icons/wu.svg" alt="" />
+                </a>
+                <a href="viber://chat?number=%2B380504800015" target="_blank">
+                    <img src="img/icons/viber.svg" alt="" />
+                </a>
+                <a href="https://www.facebook.com/fashion.design.class" target="_blank">
+                    <img src="img/icons/fb.svg" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="popup-application popup-application2 mfp-hide">
+        <form type="POST" class="popup-application__form">
+            <div class="success">
+                <div class="success__title">Заявка принята</div>
+                <div class="success__text">
+                    Ваша заявка отправлена и будет рассмотрена в ближайшее время
+                </div>
+            </div>
+            <input type="hidden" name="project_name" value="Fashion design class" />
+            <input type="hidden" name="admin_email" value="911.alina.15@gmail.com" />
+            <input type="hidden" name="form_subject" value="Владелец бренда очно" />
+            <div class="popup-application__title h2">Заполните заявку</div>
+            <p class="popup-application__text">
+                Укажите свои данные и мы свяжемся с вами в ближайшее время
+            </p>
+            <input type="text" placeholder="Ваше имя" name="Имя" required/>
+            <input type="tel" placeholder="Телефон" name="Телефон" required/>
+            <div class="box">
+                <div class="popup-application__select">
+                    <select class="select2" name="Мессенджер" data-placeholder="Мессенджер">
+                    <option></option>
+                    <option value="Telegram">Telegram</option>
+                    <option value="Viber">Viber</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                </select>
+                </div>
+                <input type="text" name="Имя или телефон мессенджера" required class="popup-application__select-input" placeholder="Телефон мессенджера" />
+            </div>
+
+            <button type="submit" class="btn">Отправить заявку</button>
+
+            <p class="form-policy">
+                При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой персональных данных
+            </p>
+        </form>
+        <div class="popup-application__contacts">
+            <span>Или напишите нам:</span>
+            <div class="popup-call__img">
+                <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
+                    <img src="img/icons/tg.svg" alt="" />
+                </a>
+                <a href="https://wa.me/380504800015?text=Здравствуйте." target="_blank">
+                    <img src="img/icons/wu.svg" alt="" />
+                </a>
+                <a href="viber://chat?number=%2B380504800015" target="_blank">
+                    <img src="img/icons/viber.svg" alt="" />
+                </a>
+                <a href="https://www.facebook.com/fashion.design.class" target="_blank">
+                    <img src="img/icons/fb.svg" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="popup-application popup-application3 mfp-hide">
+        <form type="POST" class="popup-application__form">
+            <div class="success">
+                <div class="success__title">Заявка принята</div>
+                <div class="success__text">
+                    Ваша заявка отправлена и будет рассмотрена в ближайшее время
+                </div>
+            </div>
+            <input type="hidden" name="project_name" value="Fashion design class" />
+            <input type="hidden" name="admin_email" value="911.alina.15@gmail.com" />
+            <input type="hidden" name="form_subject" value="Дизайнер профессионал очно" />
+            <div class="popup-application__title h2">Заполните заявку</div>
+            <p class="popup-application__text">
+                Укажите свои данные и мы свяжемся с вами в ближайшее время
+            </p>
+            <input type="text" placeholder="Ваше имя" name="Имя" required/>
+            <input type="tel" placeholder="Телефон" name="Телефон" required/>
+            <div class="box">
+                <div class="popup-application__select">
+                    <select class="select2" name="Мессенджер" data-placeholder="Мессенджер">
+                    <option></option>
+                    <option value="Telegram">Telegram</option>
+                    <option value="Viber">Viber</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                </select>
+                </div>
+                <input type="text" name="Имя или телефон мессенджера" required class="popup-application__select-input" placeholder="Телефон мессенджера" />
+            </div>
+
+            <button type="submit" class="btn">Отправить заявку</button>
+
+            <p class="form-policy">
+                При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой персональных данных
+            </p>
+        </form>
+        <div class="popup-application__contacts">
+            <span>Или напишите нам:</span>
+            <div class="popup-call__img">
+                <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
+                    <img src="img/icons/tg.svg" alt="" />
+                </a>
+                <a href="https://wa.me/380504800015?text=Здравствуйте." target="_blank">
+                    <img src="img/icons/wu.svg" alt="" />
+                </a>
+                <a href="viber://chat?number=%2B380504800015" target="_blank">
+                    <img src="img/icons/viber.svg" alt="" />
+                </a>
+                <a href="https://www.facebook.com/fashion.design.class" target="_blank">
+                    <img src="img/icons/fb.svg" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="popup-application popup-application4 mfp-hide">
+        <form type="POST" class="popup-application__form">
+            <div class="success">
+                <div class="success__title">Заявка принята</div>
+                <div class="success__text">
+                    Ваша заявка отправлена и будет рассмотрена в ближайшее время
+                </div>
+            </div>
+            <input type="hidden" name="project_name" value="Fashion design class" />
+            <input type="hidden" name="admin_email" value="911.alina.15@gmail.com" />
+            <input type="hidden" name="form_subject" value="Fashion-иллюстрация Онлайн" />
+            <div class="popup-application__title h2">Заполните заявку</div>
+            <p class="popup-application__text">
+                Укажите свои данные и мы свяжемся с вами в ближайшее время
+            </p>
+            <input type="text" placeholder="Ваше имя" name="Имя" required/>
+            <input type="tel" placeholder="Телефон" name="Телефон" required/>
+            <div class="box">
+                <div class="popup-application__select">
+                    <select class="select2" name="Мессенджер" data-placeholder="Мессенджер">
+                    <option></option>
+                    <option value="Telegram">Telegram</option>
+                    <option value="Viber">Viber</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                </select>
+                </div>
+                <input type="text" name="Имя или телефон мессенджера" required class="popup-application__select-input" placeholder="Телефон мессенджера" />
+            </div>
+
+            <button type="submit" class="btn">Отправить заявку</button>
+
+            <p class="form-policy">
+                При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой персональных данных
+            </p>
+        </form>
+        <div class="popup-application__contacts">
+            <span>Или напишите нам:</span>
+            <div class="popup-call__img">
+                <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
+                    <img src="img/icons/tg.svg" alt="" />
+                </a>
+                <a href="https://wa.me/380504800015?text=Здравствуйте." target="_blank">
+                    <img src="img/icons/wu.svg" alt="" />
+                </a>
+                <a href="viber://chat?number=%2B380504800015" target="_blank">
+                    <img src="img/icons/viber.svg" alt="" />
+                </a>
+                <a href="https://www.facebook.com/fashion.design.class" target="_blank">
+                    <img src="img/icons/fb.svg" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="popup-application popup-application5 mfp-hide">
+        <form type="POST" class="popup-application__form">
+            <div class="success">
+                <div class="success__title">Заявка принята</div>
+                <div class="success__text">
+                    Ваша заявка отправлена и будет рассмотрена в ближайшее время
+                </div>
+            </div>
+            <input type="hidden" name="project_name" value="Fashion design class" />
+            <input type="hidden" name="admin_email" value="911.alina.15@gmail.com" />
+            <input type="hidden" name="form_subject" value="Владелец бренда Онлайн" />
+            <div class="popup-application__title h2">Заполните заявку</div>
+            <p class="popup-application__text">
+                Укажите свои данные и мы свяжемся с вами в ближайшее время
+            </p>
+            <input type="text" placeholder="Ваше имя" name="Имя" required/>
+            <input type="tel" placeholder="Телефон" name="Телефон" required/>
+            <div class="box">
+                <div class="popup-application__select">
+                    <select class="select2" name="Мессенджер" data-placeholder="Мессенджер">
+                    <option></option>
+                    <option value="Telegram">Telegram</option>
+                    <option value="Viber">Viber</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                </select>
+                </div>
+                <input type="text" name="Имя или телефон мессенджера" required class="popup-application__select-input" placeholder="Телефон мессенджера" />
+            </div>
+
+            <button type="submit" class="btn">Отправить заявку</button>
+
+            <p class="form-policy">
+                При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой персональных данных
+            </p>
+        </form>
+        <div class="popup-application__contacts">
+            <span>Или напишите нам:</span>
+            <div class="popup-call__img">
+                <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
+                    <img src="img/icons/tg.svg" alt="" />
+                </a>
+                <a href="https://wa.me/380504800015?text=Здравствуйте." target="_blank">
+                    <img src="img/icons/wu.svg" alt="" />
+                </a>
+                <a href="viber://chat?number=%2B380504800015" target="_blank">
+                    <img src="img/icons/viber.svg" alt="" />
+                </a>
+                <a href="https://www.facebook.com/fashion.design.class" target="_blank">
+                    <img src="img/icons/fb.svg" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="popup-application popup-application6 mfp-hide">
+        <form type="POST" class="popup-application__form">
+            <div class="success">
+                <div class="success__title">Заявка принята</div>
+                <div class="success__text">
+                    Ваша заявка отправлена и будет рассмотрена в ближайшее время
+                </div>
+            </div>
+            <input type="hidden" name="project_name" value="Fashion design class" />
+            <input type="hidden" name="admin_email" value="911.alina.15@gmail.com" />
+            <input type="hidden" name="form_subject" value="Дизайнер профессионал Онлайн" />
+            <div class="popup-application__title h2">Заполните заявку</div>
+            <p class="popup-application__text">
+                Укажите свои данные и мы свяжемся с вами в ближайшее время
+            </p>
+            <input type="text" placeholder="Ваше имя" name="Имя" required/>
+            <input type="tel" placeholder="Телефон" name="Телефон" required/>
+            <div class="box">
+                <div class="popup-application__select">
+                    <select class="select2" name="Мессенджер" data-placeholder="Мессенджер">
+                    <option></option>
+                    <option value="Telegram">Telegram</option>
+                    <option value="Viber">Viber</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                </select>
+                </div>
+                <input type="text" name="Имя или телефон мессенджера" required class="popup-application__select-input" placeholder="Телефон мессенджера" />
+            </div>
+
+            <button type="submit" class="btn">Отправить заявку</button>
+
+            <p class="form-policy">
+                При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой персональных данных
+            </p>
+        </form>
+        <div class="popup-application__contacts">
+            <span>Или напишите нам:</span>
+            <div class="popup-call__img">
+                <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
+                    <img src="img/icons/tg.svg" alt="" />
+                </a>
+                <a href="https://wa.me/380504800015?text=Здравствуйте." target="_blank">
+                    <img src="img/icons/wu.svg" alt="" />
+                </a>
+                <a href="viber://chat?number=%2B380504800015" target="_blank">
+                    <img src="img/icons/viber.svg" alt="" />
+                </a>
+                <a href="https://www.facebook.com/fashion.design.class" target="_blank">
+                    <img src="img/icons/fb.svg" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="popup-application popup-application7 mfp-hide">
+        <form type="POST" class="popup-application__form">
+            <div class="success">
+                <div class="success__title">Заявка принята</div>
+                <div class="success__text">
+                    Ваша заявка отправлена и будет рассмотрена в ближайшее время
+                </div>
+            </div>
+            <input type="hidden" name="project_name" value="Fashion design class" />
+            <input type="hidden" name="admin_email" value="911.alina.15@gmail.com" />
+            <input type="hidden" name="form_subject" value="Записаться на вебинар (Главный экран)" />
+            <div class="popup-application__title h2">Заполните заявку</div>
+            <p class="popup-application__text">
+                Укажите свои данные и мы свяжемся с вами в ближайшее время
+            </p>
+            <input type="text" placeholder="Ваше имя" name="Имя" required/>
+            <input type="tel" placeholder="Телефон" name="Телефон" required/>
+            <div class="box">
+                <div class="popup-application__select">
+                    <select class="select2" name="Мессенджер" data-placeholder="Мессенджер">
+                    <option></option>
+                    <option value="Telegram">Telegram</option>
+                    <option value="Viber">Viber</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                </select>
+                </div>
+                <input type="text" name="Имя или телефон мессенджера" required class="popup-application__select-input" placeholder="Телефон мессенджера" />
+            </div>
+
+            <button type="submit" class="btn">Отправить заявку</button>
+
+            <p class="form-policy">
+                При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой персональных данных
+            </p>
+        </form>
+        <div class="popup-application__contacts">
+            <span>Или напишите нам:</span>
+            <div class="popup-call__img">
+                <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
+                    <img src="img/icons/tg.svg" alt="" />
+                </a>
+                <a href="https://wa.me/380504800015?text=Здравствуйте." target="_blank">
+                    <img src="img/icons/wu.svg" alt="" />
+                </a>
+                <a href="viber://chat?number=%2B380504800015" target="_blank">
+                    <img src="img/icons/viber.svg" alt="" />
+                </a>
+                <a href="https://www.facebook.com/fashion.design.class" target="_blank">
+                    <img src="img/icons/fb.svg" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="popup-application popup-application8 mfp-hide">
+        <form type="POST" class="popup-application__form">
+            <div class="success">
+                <div class="success__title">Заявка принята</div>
+                <div class="success__text">
+                    Ваша заявка отправлена и будет рассмотрена в ближайшее время
+                </div>
+            </div>
+            <input type="hidden" name="project_name" value="Fashion design class" />
+            <input type="hidden" name="admin_email" value="911.alina.15@gmail.com" />
+            <input type="hidden" name="form_subject" value="Записаться на вебинар" />
+            <div class="popup-application__title h2">Заполните заявку</div>
+            <p class="popup-application__text">
+                Укажите свои данные и мы свяжемся с вами в ближайшее время
+            </p>
+            <input type="text" placeholder="Ваше имя" name="Имя" required/>
+            <input type="tel" placeholder="Телефон" name="Телефон" required/>
+            <div class="box">
+                <div class="popup-application__select">
+                    <select class="select2" name="Мессенджер" data-placeholder="Мессенджер">
+                    <option></option>
+                    <option value="Telegram">Telegram</option>
+                    <option value="Viber">Viber</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                </select>
+                </div>
+                <input type="text" name="Имя или телефон мессенджера" required class="popup-application__select-input" placeholder="Телефон мессенджера" />
+            </div>
+
+            <button type="submit" class="btn">Отправить заявку</button>
+
+            <p class="form-policy">
+                При нажатии на кнопку “Отправить заявку” я соглашаюсь с обработкой персональных данных
+            </p>
+        </form>
+        <div class="popup-application__contacts">
+            <span>Или напишите нам:</span>
+            <div class="popup-call__img">
+                <a href="tg://resolve?domain=@f_d_c_school" target="_blank">
+                    <img src="img/icons/tg.svg" alt="" />
+                </a>
+                <a href="https://wa.me/380504800015?text=Здравствуйте." target="_blank">
+                    <img src="img/icons/wu.svg" alt="" />
+                </a>
+                <a href="viber://chat?number=%2B380504800015" target="_blank">
+                    <img src="img/icons/viber.svg" alt="" />
+                </a>
+                <a href="https://www.facebook.com/fashion.design.class" target="_blank">
+                    <img src="img/icons/fb.svg" alt="" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-application popup-application9 mfp-hide">
+        <form type="POST" class="popup-payment__form">
+            <input type="hidden" name="project_name" value="Fashion design class" />
+            <input type="hidden" name="admin_email" value="911.alina.15@gmail.com" />
+            <input type="hidden" name="form_subject" value="Заявка на оплату" />
+            <div class="popup-call__title h2">
+                Заполните заявку оплаты
+            </div>
+            <p class="popup-call__text">Укажите свои персональные данные</p>
+            <input type="text" placeholder="Ваше имя" name="Имя" required/>
+            <input type="tel" placeholder="Телефон" name="Телефон" required/>
+            <input type="email" placeholder="Электронная почта" name="E-mail" required/>
+            <button type="submit" class="btn">Отправить заявку</button>
+
+            <p class="form-policy">
+                Нажимая на кнопку я согласен с условиями<br>
+                <a href="docs/oferta.pdf" target="_blank">договора оферты и правилами оплаты и возврата</a>
+            </p>
+        </form>
+    </div>
+
+    <section class="main">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header-burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="header-logo">
+                        <a href="#" class="header-logo__link">
+                            <img src="img/icons/logo.svg" alt="логотип" />
+                        </a>
+                    </div>
+
+                    <div class="header-right">
+                        <a href="tel:+380677744910" class="header-call">
                         +380 677 744 910
                     </a>
 
-                    <a href="index.html" class="header-language">
+                        <a href="index.html" class="header-language">
                         UA
                     </a>
-                </div>
+                    </div>
 
-                <nav class="header-nav">
-                    <a href="#plan" class="header-nav__link">О курсе</a>
-                    <a href="#about" class="header-nav__link">О нас</a>
-                    <a href="#programs" class="header-nav__link">Тарифы</a>
-                    <a href="#reviews" class="header-nav__link">Отзывы</a>
-                </nav>
-                <div class="header-contacts">
-                    <div class="header-tel">
-                        <a href="tel:+380687456623" class="header-tel__link">
+                    <nav class="header-nav">
+                        <a href="#plan" class="header-nav__link">О курсе</a>
+                        <a href="#about" class="header-nav__link">О нас</a>
+                        <a href="#programs" class="header-nav__link">Тарифы</a>
+                        <a href="#reviews" class="header-nav__link">Отзывы</a>
+                    </nav>
+                    <div class="header-contacts">
+                        <div class="header-tel">
+                            <a href="tel:+380687456623" class="header-tel__link">
                             +380 504 800 015
                         </a>
-                        <a href="tel:+380677744910" class="header-tel__link">
+                            <a href="tel:+380677744910" class="header-tel__link">
                             +380 677 744 910
                         </a>
-                    </div>
-                    <a href=".popup-call" class="header-feedback btn magnific-popup">
+                        </div>
+                        <a href=".popup-call" class="header-feedback btn magnific-popup">
                         Обратная связь
                     </a>
-                    <div class="header-lang">
-                        <a href="#" class="header-lang__item _active">RU</a>
-                        <a href="index.html" class="header-lang__item">UA</a>
+                        <div class="header-lang">
+                            <a href="#" class="header-lang__item _active">RU</a>
+                            <a href="index.html" class="header-lang__item">UA</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-    <div class="header-dropdown">
-        <div class="container">
-            <div class="header-dropdown__inner">
-                <nav class="header-dropdown__nav">
-                    <a href="#plan" class="header-dropdown__link">О курсе</a>
-                    <a href="#about" class="header-dropdown__link">О нас</a>
-                    <a href="#programs" class="header-dropdown__link">Тарифы</a>
-                    <a href="#reviews" class="header-dropdown__link">Отзывы</a>
-                </nav>
-                <div class="header-dropdown__contacts">
-                    <a href="tel:+380687456623" class="header-dropdown__tel">
+        </header>
+        <div class="header-dropdown">
+            <div class="container">
+                <div class="header-dropdown__inner">
+                    <nav class="header-dropdown__nav">
+                        <a href="#plan" class="header-dropdown__link">О курсе</a>
+                        <a href="#about" class="header-dropdown__link">О нас</a>
+                        <a href="#programs" class="header-dropdown__link">Тарифы</a>
+                        <a href="#reviews" class="header-dropdown__link">Отзывы</a>
+                    </nav>
+                    <div class="header-dropdown__contacts">
+                        <a href="tel:+380687456623" class="header-dropdown__tel">
                         +380 504 800 015
                     </a>
-                    <a href="tel:+380677744910" class="header-dropdown__tel">
+                        <a href="tel:+380677744910" class="header-dropdown__tel">
                         +380 677 744 910
                     </a>
 
-                    <a
-                            href=".popup-application8"
-                            class="magnific-popup header-dropdown__request btn"
-                    >
+                        <a href=".popup-application8" class="magnific-popup header-dropdown__request btn">
                         Оставить заявку
                     </a>
-                    <div class="header-lang">
-                        <a href="#" class="header-lang__item _active">RU</a>
-                        <a href="index.html" class="header-lang__item">UA</a>
+                        <div class="header-lang">
+                            <a href="#" class="header-lang__item _active">RU</a>
+                            <a href="index.html" class="header-lang__item">UA</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="main-content">
-        <div class="container" data-aos="fade-right">
-            <p class="main__subtitle">Fashion design class of Alina Smirnova</p>
-            <h1 class="h1 main__title">
-                Создавайте одежду под собственным брендом
-            </h1>
-            <ul class="main__features">
-                <li class="main__features-item">
-                    Как быстро освоить дизайн одежды и собственноручно начать выпуск
-                    коллекций
-                </li>
-                <li class="main__features-item">
-                    Понимание, с чего строится бренд и какие идеи он должен отражать
-                </li>
-                <li class="main__features-item">
-                    Построение бренда одежды и определение бюджета для старта
-                </li>
-            </ul>
-            <div class="main__btns">
-                <a
-                        href=".popup-application7"
-                        class="main__btns-request magnific-popup btn"
-                >
+        <div class="main-content">
+            <div class="container" data-aos="fade-right">
+                <p class="main__subtitle">Fashion design class of Alina Smirnova</p>
+                <h1 class="h1 main__title">
+                    Дизайнерский арт-центр
+                </h1>
+                <ul class="main__features">
+                    <li class="main__features-item">
+                        fashion образование
+                    </li>
+                    <li class="main__features-item">
+                        поиск творческих ресурсов в собственной личности благодаря арт-терапии
+                    </li>
+                    <li class="main__features-item">
+                        построение бренда одежды с нуля
+                    </li>
+                </ul>
+                <div class="main__btns">
+                    <a href=".popup-application7" class="main__btns-request magnific-popup btn">
 					Записаться на пробный урок
                 </a>
-                <a href="#programs" class="main__btns-more dashed-btn">Подробнее о курсе</a>
+                    <a href="#programs" class="main__btns-more dashed-btn">Подробнее о курсе</a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="plan" id="plan">
-    <div class="container">
-        <div class="plan-wrapper">
-            <div class="plan-content" data-aos="fade-up" data-aos-delay="300">
-                <h2 class="h2 plan-content__title _ru">
-                    Дадим все необходимые знания для успеха
-                </h2>
-                <p class="plan-content__text">
-                    Вы - владелец торговой марки или новичок в дизайне одежды?
-                </p>
-                <p class="plan-content__text">
-                    У вас есть потребность в повышении квалификации, чтобы обновить
-                    политику бренда или быть в курсе глобальных изменений на fashion
-                    пространстве?
-                </p>
-                <p class="plan-content__text">
-                    Курс, который подготовила Алина Смирнова, поможет освоить
-                    профессию fasion-дизайнера и воплотить мечту о создании
-                    собственного бренда одежды в реальность.
-                </p>
-                <a href="#programs" class="plan-content__btn">Посмотреть тарифы</a>
-                <img src="img/plan.png" alt=""/>
-                <img src="img/plan2.png" alt=""/>
-            </div>
-            <div class="plan-features">
-                <div class="plan-item">
-                    <div class="plan-item__number">
-                        <span>02</span>
-                    </div>
-                    <p
-                            class="plan-item__title"
-                            data-aos="fade-up"
-                            data-aos-delay="300"
-                    >
-                        Разберем, как успешно начать свое производство
+    <section class="plan" id="plan">
+        <div class="container">
+            <div class="plan-wrapper">
+                <div class="plan-content" data-aos="fade-up" data-aos-delay="300">
+                    <h2 class="h2 plan-content__title _ru">
+                        Дадим все необходимые знания для успеха
+                    </h2>
+                    <p class="plan-content__text">
+                        Вы - владелец торговой марки или новичок в дизайне одежды?
                     </p>
-                    <p
-                            class="plan-item__text"
-                            data-aos="fade-up"
-                            data-aos-delay="300"
-                    >
-                        Проанализируем возможные ошибки, разберем как их избежать и
-                        добиться успеха своими силами. Вы сможете начать свое
-                        производство с малых затрат и без критических ошибок.
+                    <p class="plan-content__text">
+                        У вас есть потребность в повышении квалификации, чтобы обновить политику бренда или быть в курсе глобальных изменений на fashion пространстве?
                     </p>
+                    <p class="plan-content__text">
+                        Курс, который подготовила Алина Смирнова, поможет освоить профессию fasion-дизайнера и воплотить мечту о создании собственного бренда одежды в реальность.
+                    </p>
+                    <a href="#programs" class="plan-content__btn">Посмотреть тарифы</a>
+                    <img src="img/plan.png" alt="" />
+                    <img src="img/plan2.png" alt="" />
                 </div>
-                <div class="plan-item">
-                    <div class="plan-item__number">
-                        <span>01</span>
+                <div class="plan-features">
+                    <div class="plan-item">
+                        <div class="plan-item__number">
+                            <span>02</span>
+                        </div>
+                        <p class="plan-item__title" data-aos="fade-up" data-aos-delay="300">
+                            Разберем, как успешно начать свое производство
+                        </p>
+                        <p class="plan-item__text" data-aos="fade-up" data-aos-delay="300">
+                            Проанализируем возможные ошибки, разберем как их избежать и добиться успеха своими силами. Вы сможете начать свое производство с малых затрат и без критических ошибок.
+                        </p>
                     </div>
-                    <p
-                            class="plan-item__title"
-                            data-aos="fade-up"
-                            data-aos-delay="100"
-                    >
-                        Поможем освоить основы fashion-бизнеса
-                    </p>
-                    <p
-                            class="plan-item__text"
-                            data-aos="fade-up"
-                            data-aos-delay="100"
-                    >
-                        Научим профессионально проектировать коллекции, эстетически
-                        оформлять эскизы и прогнозировать тренды, чтобы опережать
-                        конкурентов.
-                    </p>
-                </div>
-                <div class="plan-item">
-                    <div class="plan-item__number">
-                        <span>03</span>
+                    <div class="plan-item">
+                        <div class="plan-item__number">
+                            <span>01</span>
+                        </div>
+                        <p class="plan-item__title" data-aos="fade-up" data-aos-delay="100">
+                            Поможем освоить основы fashion-бизнеса
+                        </p>
+                        <p class="plan-item__text" data-aos="fade-up" data-aos-delay="100">
+                            Научим профессионально проектировать коллекции, эстетически оформлять эскизы и прогнозировать тренды, чтобы опережать конкурентов.
+                        </p>
                     </div>
-                    <p
-                            class="plan-item__title"
-                            data-aos="fade-up"
-                            data-aos-delay="300"
-                    >
-                        Наполним ваши проекты уникальными идеями
-                    </p>
-                    <p
-                            class="plan-item__text"
-                            data-aos="fade-up"
-                            data-aos-delay="300"
-                    >
-                        Узнаете, как сформировать концепт своих работ и бренда в целом.
-                        Получите уверенность в своих силах и актуальности идей.
-                    </p>
-                </div>
-                <div class="plan-item">
-                    <div class="plan-item__number">
-                        <span>04</span>
+                    <div class="plan-item">
+                        <div class="plan-item__number">
+                            <span>03</span>
+                        </div>
+                        <p class="plan-item__title" data-aos="fade-up" data-aos-delay="300">
+                            Наполним ваши проекты уникальными идеями
+                        </p>
+                        <p class="plan-item__text" data-aos="fade-up" data-aos-delay="300">
+                            Узнаете, как сформировать концепт своих работ и бренда в целом. Получите уверенность в своих силах и актуальности идей.
+                        </p>
                     </div>
-                    <p
-                            class="plan-item__title"
-                            data-aos="fade-up"
-                            data-aos-delay="700"
-                    >
-                        Основания своей торговой марки
-                    </p>
-                    <p
-                            class="plan-item__text"
-                            data-aos="fade-up"
-                            data-aos-delay="700"
-                    >
-                        Получите все необходимые знания, чтобы самостоятельно открыть
-                        свой бренд или развить его до коммерчески успешного уровня.
-                    </p>
-                </div>
-                <div class="plan-result">
-							<span class="plan-result__text">
+                    <div class="plan-item">
+                        <div class="plan-item__number">
+                            <span>04</span>
+                        </div>
+                        <p class="plan-item__title" data-aos="fade-up" data-aos-delay="700">
+                            Основания своей торговой марки
+                        </p>
+                        <p class="plan-item__text" data-aos="fade-up" data-aos-delay="700">
+                            Получите все необходимые знания, чтобы самостоятельно открыть свой бренд или развить его до коммерчески успешного уровня.
+                        </p>
+                    </div>
+                    <div class="plan-result">
+                        <span class="plan-result__text">
 								Результат - ваш личный бренд одежды!
 							</span>
-                </div>
-                <div class="plan-img">
-                    <div class="plan-img-box">
-                        <img src="img/plan.png" alt=""/>
-                        <img src="img/plan2.png" alt=""/>
+                    </div>
+                    <div class="plan-img">
+                        <div class="plan-img-box">
+                            <img src="img/plan.png" alt="" />
+                            <img src="img/plan2.png" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="about" id="about">
-    <div class="container">
-        <h2 class="h2 about__title">О нас</h2>
-        <div class="about-wrapper">
-            <div class="about__img">
-                <img src="img/about.jpg" alt="Фото"/>
-            </div>
-            <div class="about__content">
-                <h3
-                        class="h3 about__content-title"
-                        data-aos="fade-up"
-                        data-aos-delay="300"
-                >
-                    Ваш преподаватель
-                </h3>
-                <div class="about__content-textbox">
-                    <p
-                            class="about__content-text"
-                            data-aos="fade-up"
-                            data-aos-delay="300"
-                    >
-                        Современные предложения по обучению обещают начать прибыльное
-                        дело сразу после обучения и получать прибыль почти без вложений.
-                    </p>
-                    <p
-                            class="about__content-text"
-                            data-aos="fade-up"
-                            data-aos-delay="300"
-                    >
-                        Но Любой бизнес требует как материальных, так и физических
-                        затрат. А вот как грамотно их распределить и предотвратить
-                        ошибки - это главная задача преподавателя.
-                    </p>
-                    <p
-                            class="about__content-text"
-                            data-aos="fade-up"
-                            data-aos-delay="300"
-                    >
-                        Мой 20-летний путь в профессии позволил составить уникальную
-                        программу обучения для студентов с разным уровнем подготовки.
-                        Моя главная задача - научить студентов создавать хорошее продукт
-                        и успешно его реализовать.
-                    </p>
-                    <div
-                            class="about__content-row"
-                            data-aos="fade-up"
-                            data-aos-delay="300"
-                    >
-                        <div class="about__content-item">
-                            <span class="about__content-number">5 лет</span>
-                            <span class="about__content-caption">школе дизайнеров</span>
-                        </div>
-                        <div class="about__content-item">
-                            <span class="about__content-number">300 человек</span>
-                            <span class="about__content-caption">
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="h2 about__title">О нас</h2>
+            <div class="about-wrapper">
+                <div class="about__img">
+                    <img src="img/about.jpg" alt="Фото" />
+                </div>
+                <div class="about__content">
+                    <h3 class="h3 about__content-title" data-aos="fade-up" data-aos-delay="300">
+                        Ваш преподаватель
+                    </h3>
+                    <div class="about__content-textbox">
+                        <p class="about__content-text" data-aos="fade-up" data-aos-delay="300">
+                            Современные предложения по обучению обещают начать прибыльное дело сразу после обучения и получать прибыль почти без вложений.
+                        </p>
+                        <p class="about__content-text" data-aos="fade-up" data-aos-delay="300">
+                            Но Любой бизнес требует как материальных, так и физических затрат. А вот как грамотно их распределить и предотвратить ошибки - это главная задача преподавателя.
+                        </p>
+                        <p class="about__content-text" data-aos="fade-up" data-aos-delay="300">
+                            Мой 20-летний путь в профессии позволил составить уникальную программу обучения для студентов с разным уровнем подготовки. Моя главная задача - научить студентов создавать хорошее продукт и успешно его реализовать.
+                        </p>
+                        <div class="about__content-row" data-aos="fade-up" data-aos-delay="300">
+                            <div class="about__content-item">
+                                <span class="about__content-number">5 лет</span>
+                                <span class="about__content-caption">школе дизайнеров</span>
+                            </div>
+                            <div class="about__content-item">
+                                <span class="about__content-number">300 человек</span>
+                                <span class="about__content-caption">
 										количество выпускников
 									</span>
-                        </div>
-                    </div>
-                    <div
-                            class="about__content-row"
-                            data-aos="fade-up"
-                            data-aos-delay="300"
-                    >
-                        <div class="about__content-item">
-                            <span class="about__content-number">5 показов</span>
-                            <span class="about__content-caption">
-										из них - один в Милане
-									</span>
-                        </div>
-                        <div class="about__content-item">
-                            <span class="about__content-number">50 коллекций</span>
-                            <span class="about__content-caption">нами разработано</span>
-                        </div>
-                    </div>
-                    <div
-                            class="about__author"
-                            data-aos="fade-up"
-                            data-aos-delay="300"
-                    >
-                        <div class="about__author-text">
-                            <div class="about__author-title">Алина Смирнова</div>
-                            <div class="about__author-subtitle">
-                                Основатель школы дизайнеров одежды, дизайнер с 20-летним
-                                опытом в швейной отрасли и дизайне одежды
                             </div>
                         </div>
-                        <div class="about__author-sign">
-                            <img src="img/icons/sign.svg" alt=""/>
+                        <div class="about__content-row" data-aos="fade-up" data-aos-delay="300">
+                            <div class="about__content-item">
+                                <span class="about__content-number">5 показов</span>
+                                <span class="about__content-caption">
+										из них - один в Милане
+									</span>
+                            </div>
+                            <div class="about__content-item">
+                                <span class="about__content-number">50 коллекций</span>
+                                <span class="about__content-caption">нами разработано</span>
+                            </div>
+                        </div>
+                        <div class="about__author" data-aos="fade-up" data-aos-delay="300">
+                            <div class="about__author-text">
+                                <div class="about__author-title">Алина Смирнова</div>
+                                <div class="about__author-subtitle">
+                                    Основатель школы дизайнеров одежды, дизайнер с 20-ти летним опытом в педагогической деятельности, швейной отрасли и дизайне одежды
+                                </div>
+                            </div>
+                            <div class="about__author-sign">
+                                <img src="img/icons/sign.svg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-features _ru" data-aos="fade-up" data-aos-delay="300">
+                <div class="about-features__itembox">
+                    <div class="about-features__item">
+                        <div class="about-features__number">
+                            <span>1994</span>
+                        </div>
+                        <div class="about-features__title">Начало освоения прифессии</div>
+                        <div class="about-features__text">
+                            Изготовление изделий по индивидуальным заказам клиентов.
+                        </div>
+                    </div>
+                </div>
+                <div class="about-features__itembox">
+                    <div class="about-features__item">
+                        <div class="about-features__number">
+                            <span>1998</span>
+                        </div>
+                        <div class="about-features__title">
+                            Организация собственного производства
+                        </div>
+                        <div class="about-features__text">
+                            Организация собственного швейного производства по разработке, изготовлению и реализации женской одежды.
+                        </div>
+                    </div>
+                </div>
+                <div class="about-features__itembox">
+                    <div class="about-features__item">
+                        <div class="about-features__number">
+                            <span>2003</span>
+                        </div>
+                        <div class="about-features__title">
+                            Владелец авторского ателье
+                        </div>
+                        <div class="about-features__text">
+                            Создание авторского ателье по обслуживанию клиентов luxery сегмента как в Украине, так и за рубежом.
+                        </div>
+                    </div>
+                </div>
+                <div class="about-features__itembox">
+                    <div class="about-features__item">
+                        <div class="about-features__number">
+                            <span>2017</span>
+                        </div>
+                        <div class="about-features__title">
+                            Продюсер проекта
+                            <br/> Dream-Reality
+                        </div>
+                        <div class="about-features__text">
+                            Социальный интернет-проект «Dream-Reality», для поддержки молодых дизайнеров.
+                        </div>
+                    </div>
+                </div>
+                <div class="about-features__itembox">
+                    <div class="about-features__item">
+                        <div class="about-features__number">
+                            <span>2016</span>
+                        </div>
+                        <div class="about-features__title">
+                            Запуск образовательной программы
+                            <br/> «Fashion Design Class»
+                        </div>
+                        <div class="about-features__text">
+                            Обучение и продвижение начинающих дизайнеров среди детей и взрослых, для основания и развития собственного бренда.
+                        </div>
+                    </div>
+                </div>
+                <div class="about-features__itembox">
+                    <div class="about-features__item">
+                        <div class="about-features__number">
+                            <span>2012</span>
+                        </div>
+                        <div class="about-features__title">
+                            Основание бренда «ASmirnova»
+                        </div>
+                        <div class="about-features__text">
+                            Ежесезонный выпуск коллекций и участие в персональных показах под собственным брендом.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="about-features _ru" data-aos="fade-up" data-aos-delay="300">
-            <div class="about-features__itembox">
-                <div class="about-features__item">
-                    <div class="about-features__number">
-                        <span>1994</span>
-                    </div>
-                    <div class="about-features__title">Начало освоения прифессии</div>
-                    <div class="about-features__text">
-                        Изготовление изделий по индивидуальным заказам клиентов.
-                    </div>
-                </div>
-            </div>
-            <div class="about-features__itembox">
-                <div class="about-features__item">
-                    <div class="about-features__number">
-                        <span>1998</span>
-                    </div>
-                    <div class="about-features__title">
-                        Организация собственного производства
-                    </div>
-                    <div class="about-features__text">
-                        Организация собственного швейного производства по разработке,
-                        изготовлению и реализации женской одежды.
-                    </div>
-                </div>
-            </div>
-            <div class="about-features__itembox">
-                <div class="about-features__item">
-                    <div class="about-features__number">
-                        <span>2003</span>
-                    </div>
-                    <div class="about-features__title">
-                        Владелец авторского ателье
-                    </div>
-                    <div class="about-features__text">
-                        Создание авторского ателье по обслуживанию клиентов luxery
-                        сегмента как в Украине, так и за рубежом.
-                    </div>
-                </div>
-            </div>
-            <div class="about-features__itembox">
-                <div class="about-features__item">
-                    <div class="about-features__number">
-                        <span>2017</span>
-                    </div>
-                    <div class="about-features__title">
-                        Продюсер проекта
-                        <br/>
-                        Dream-Reality
-                    </div>
-                    <div class="about-features__text">
-                        Социальный интернет-проект «Dream-Reality», для поддержки
-                        молодых дизайнеров.
-                    </div>
-                </div>
-            </div>
-            <div class="about-features__itembox">
-                <div class="about-features__item">
-                    <div class="about-features__number">
-                        <span>2016</span>
-                    </div>
-                    <div class="about-features__title">
-                        Запуск образовательной программы
-                        <br/>
-                        «Fashion Design Class»
-                    </div>
-                    <div class="about-features__text">
-                        Обучение и продвижение начинающих дизайнеров среди детей и
-                        взрослых, для основания и развития собственного бренда.
-                    </div>
-                </div>
-            </div>
-            <div class="about-features__itembox">
-                <div class="about-features__item">
-                    <div class="about-features__number">
-                        <span>2012</span>
-                    </div>
-                    <div class="about-features__title">
-                        Основание бренда «ASmirnova»
-                    </div>
-                    <div class="about-features__text">
-                        Ежесезонный выпуск коллекций и участие в персональных показах
-                        под собственным брендом.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
 
-<section class="programs" id="programs">
-	<div class="container">
-		<h2 class="h2 programs__title">Программы обучения</h2>
-		<p class="programs__subtitle">
-			Выберите вариант обучения и одну из программ, которая вам больше
-			подходит
-		</p>
-		<div class="programs-tabs">
-			<div class="programs-tabs__btn programs-tabs__offline _active">
-				Очно
-			</div>
-			<div class="programs-tabs__btn programs-tabs__online">Онлайн</div>
-		</div>
-		<div class="programs-cards _offline active">
-			<div class="programs-item" data-aos="fade-up" data-aos-delay="300">
-				<div class="programs-item__textbox">
-					<div class="programs-item__title h3">Fashion иллюстрация</div>
-					<div class="programs-item__text">
-						Поможем освоить современные техники иллюстрации различными
-						инструментами - маркерами, акварелью и тушью. Научитесь рисовать
-						эскизы на высоком уровне, даже если никогда не занимались
-						рисованием.
-					</div>
-				</div>
-				<ul class="programs-item__list">
-					<li class="programs-item__row">
-								<span class="programs-item__name">
-									1. Фигура. Оформление собственного шаблона фигур
+    <section class="programs" id="programs">
+        <div class="container">
+            <h2 class="h2 programs__title">Программы обучения</h2>
+            <p class="programs__subtitle">
+                Выберите вариант обучения и одну из программ, которая вам больше подходит
+            </p>
+            <div class="programs-tabs">
+                <div class="programs-tabs__btn programs-tabs__offline _active">
+                    Очно
+                </div>
+                <div class="programs-tabs__btn programs-tabs__online">Онлайн</div>
+            </div>
+            <div class="programs-cards _offline active">
+                <div class="programs-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="programs-item__textbox">
+                        <div class="programs-item__title h3">Групповая Арт-Терапия</div>
+                        <div class="programs-item__text">
+                            Работа с тканями, Рисунками, Мягкими материалами для лепки, Песочная терапия, Сказкотерапия и прочее.
+                            <br>
+                            <br> Программа состоит из различных тем, которые можно проходить отдельно по собственному запросу.
+                            <br> Благодаря нашим практикам вы сможете погрузиться в собственный внутренний мир, и проработать темы:
+                        </div>
+                    </div>
+                    <ul class="programs-item__list">
+                        <li class="programs-item__row">
+                            <span class="programs-item__name">
+									1. Работа с негативными чувствами
 								</span>
-						<span class="programs-item__time">5 ч.</span>
-					</li>
-					<li class="programs-item__row">
-						<span class="programs-item__name">2. Колористика</span>
-						<span class="programs-item__time">2 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
-									3. Фактура, принты, детали одежды
+                            <span class="programs-item__time">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row">
+                            <span class="programs-item__name">
+									2. Мужско-женские отношения. Кризис в паре, одиночество из-за невозможности найти пару
 								</span>
-						<span class="programs-item__time">5 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
-									4. Передача теней, объёма
+                            <span class="programs-item__time">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row">
+                            <span class="programs-item__name">
+									3. Горевание, потеря близкого человека
 								</span>
-						<span class="programs-item__time">2 ч.</span>
-					</li>
-					<li class="programs-item__row">
-						<span class="programs-item__name">5. Технический рисунок</span>
-						<span class="programs-item__time">2 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
-									6. Эскизы для закрепления тем лекций и работа над эскизами
-									выпускной коллекции
+                            <span class="programs-item__time">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row">
+                            <span class="programs-item__name">
+									4. Детско-родительские отношения, границы личности
 								</span>
-					</li>
-				</ul>
-				<div class="programs-item__total">
-					<span class="programs-item__total-text">Всего:</span>
-					<span class="programs-item__total-num h3">16 часов</span>
-				</div>
-				<div class="programs-item__price">
-					<span class="programs-item__price-text">Стоимость:</span>
-					<span class="programs-item__price-num h3">5600 ₴</span>
-				</div>
-				<div class="programs-item__price">
-					<span class="programs-item__price-text">При оплате частями:</span>
-					<span class="programs-item__price-num h3">6500 ₴</span>
-				</div>
-				<ul class="note">
-					<li>Занятия начинаются с момента формирования групп</li>
-					<li>Продолжительность одного занятия 2-3 часа</li>
-				</ul>
-				<a
-						href=".popup-application1"
-						class="magnific-popup programs-item__btn dashed-btn"
-				>
+                            <span class="programs-item__time">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden">
+                            <span class="programs-item__name ">
+									5. Возвращение желания жить, восстановление веры в себя
+								</span>
+                            <span class="programs-item__time ">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden  ">
+                            <span class="programs-item__name ">
+									6. Чувство вины
+								</span>
+                            <span class="programs-item__time ">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden  ">
+                            <span class="programs-item__name ">
+									7. Низкая самооценка, зависимость от мнения других
+								</span>
+                            <span class="programs-item__time ">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">
+									8. Профессиональное выгорание
+								</span>
+                            <span class="programs-item__time ">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">
+									9. Обида на родителей
+								</span>
+                            <span class="programs-item__time ">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">
+									10. Посттравматическое стрессовое расстройство
+								</span>
+                            <span class="programs-item__time ">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">
+									11. Душевное равновесие, принятие себя
+								</span>
+                            <span class="programs-item__time ">2 ч.</span>
+                        </li>
+                        <div class="programs-item__more ">Показать еще</div>
+
+
+
+                    </ul>
+                    <div class="programs-item__total ">
+                        <span class="programs-item__total-text ">Всего:</span>
+                        <span class="programs-item__total-num h3 ">22 часа</span>
+                    </div>
+                    <div class="programs-item__price ">
+                        <span class="programs-item__price-text ">Стоимость:</span>
+                        <span class="programs-item__price-num h3 ">3300 ₴</span>
+                    </div>
+                    <div class="programs-item__price ">
+                        <span class="programs-item__price-text ">При оплате частями:</span>
+                        <span class="programs-item__price-num h3 ">3850 ₴</span>
+                    </div>
+                    <ul class="note ">
+                        <li>Занятия начинаются с момента формирования групп</li>
+                        <li>Есть возможность участвовать в отдельных темах</li>
+                    </ul>
+                    <a href=".popup-application1 " class="magnific-popup programs-item__btn dashed-btn ">
 					Заполнить заявку на обучение
 				</a>
-			</div>
-			<div class="programs-item" data-aos="fade-up" data-aos-delay="400">
-				<div class="programs-item__textbox">
-					<div class="programs-item__title h3">Владелец бренда</div>
-					<div class="programs-item__text">
-						Курс для тех, кто планирует открыть свою ТМ или перезагрузить
-						действующий бизнес. Разберем проблемы с производственными
-						процессами, научимся готовиться к сезону и создавать одежду с
-						наименьшими потерями.
-					</div>
-				</div>
-				<ul class="programs-item__list">
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                </div>
+                <div class="programs-item " data-aos="fade-up " data-aos-delay="400 ">
+                    <div class="programs-item__textbox ">
+                        <div class="programs-item__title h3 ">Владелец бренда</div>
+                        <div class="programs-item__text ">
+                            Курс для тех, кто планирует открыть свою ТМ или перезагрузить действующий бизнес. Разберем проблемы с производственными процессами, научимся готовиться к сезону и создавать одежду с наименьшими потерями.
+                        </div>
+                    </div>
+                    <ul class="programs-item__list ">
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									1. Основы швейного бизнеса. Вводное занятие
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row">
-						<span class="programs-item__name">2. Тренды</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row">
-						<span class="programs-item__name">3. Материаловедение</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">2. Тренды</span>
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">3. Материаловедение</span>
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									4. Общее ознакомление с чертежами основ, снятие мерок
 								</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									5. Структура швейного бизнеса
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									6. Маркетинг и продвижение собственного бренда
 								</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-				</ul>
-				<div class="programs-item__total">
-					<span class="programs-item__total-text">Всего:</span>
-					<span class="programs-item__total-num h3">27 часов</span>
-				</div>
-				<div class="programs-item__price">
-					<span class="programs-item__price-text">Стоимость:</span>
-					<span class="programs-item__price-num h3">8250 ₴</span>
-				</div>
-				<div class="programs-item__price">
-					<span class="programs-item__price-text">При оплате частями:</span>
-					<span class="programs-item__price-num h3">9000 ₴</span>
-				</div>
-				<ul class="note">
-					<li>Занятия начинаются с момента формирования групп</li>
-					<li>Продолжительность одного занятия 2-3 часа</li>
-				</ul>
-				<a
-						href=".popup-application2"
-						class="magnific-popup programs-item__btn dashed-btn"
-				>
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                    </ul>
+                    <div class="programs-item__total ">
+                        <span class="programs-item__total-text ">Всего:</span>
+                        <span class="programs-item__total-num h3 ">27 часов</span>
+                    </div>
+                    <div class="programs-item__price ">
+                        <span class="programs-item__price-text ">Стоимость:</span>
+                        <span class="programs-item__price-num h3 ">8250 ₴</span>
+                    </div>
+                    <div class="programs-item__price ">
+                        <span class="programs-item__price-text ">При оплате частями:</span>
+                        <span class="programs-item__price-num h3 ">9000 ₴</span>
+                    </div>
+                    <ul class="note ">
+                        <li>Занятия начинаются с момента формирования групп</li>
+                        <li>Продолжительность одного занятия 2-3 часа</li>
+                    </ul>
+                    <a href=".popup-application2 " class="magnific-popup programs-item__btn dashed-btn ">
 					Заполнить заявку на обучение
 				</a>
-			</div>
-			<div
-					class="programs-item _pro"
-					data-aos="fade-up"
-					data-aos-delay="500"
-			>
-				<div class="programs-item__textbox">
-					<div class="programs-item__title h3">Дизайнер - Профессионал</div>
-					<div class="programs-item__text">
-						Должность, которая не предусматривает навыки шитья. Научим
-						генерировать креативные идеи, прогнозировать будущие тренды и
-						создавать концептуальные коллекции, в которых есть уникальная
-						тема.
-					</div>
-				</div>
-				<ul class="programs-item__list">
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                </div>
+                <div class="programs-item _pro " data-aos="fade-up " data-aos-delay="500 ">
+                    <div class="programs-item__textbox ">
+                        <div class="programs-item__title h3 ">Дизайнер - Профессионал</div>
+                        <div class="programs-item__text ">
+                            Должность, которая не предусматривает навыки шитья. Научим генерировать креативные идеи, прогнозировать будущие тренды и создавать концептуальные коллекции, в которых есть уникальная тема.
+                        </div>
+                    </div>
+                    <ul class="programs-item__list ">
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									1. Основы проектирования коллекции
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									2. Fashion-иллюстрация. Оформление собственного шаблона фигур
 								</span>
-						<span class="programs-item__time">9 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">9 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									3. История моды и архитектуры
 								</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									4. Теория цвета, цветотипы внешности, психология цвета
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row">
-						<span class="programs-item__name">5. Законы композиции</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-						<span class="programs-item__name">6. Стилистика</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-						<span class="programs-item__name">7. Тренды</span>
-						<span class="programs-item__time">2 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-						<span class="programs-item__name">8. Материаловедение</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">5. Законы композиции</span>
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">6. Стилистика</span>
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">7. Тренды</span>
+                            <span class="programs-item__time ">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">8. Материаловедение</span>
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">
 									9. Общее ознакомление с чертежами основ, снятие мерок
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">
 									10. Структура швейного бизнеса
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">
 									11. Маркетинг и продвижение собственного бренда
 								</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">
 									12. Составление мудборда по теме коллекции
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<div class="programs-item__more">Показать еще</div>
-				</ul>
-				<div>
-					<div class="programs-item__total">
-						<span class="programs-item__total-text">Всего:</span>
-						<span class="programs-item__total-num h3">56 часов</span>
-					</div>
-					<div class="programs-item__price">
-						<span class="programs-item__price-text">Стоимость:</span>
-						<span class="programs-item__price-num h3">11000 ₴</span>
-					</div>
-					<div class="programs-item__price">
-								<span class="programs-item__price-text">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <div class="programs-item__more ">Показать еще</div>
+                    </ul>
+                    <div>
+                        <div class="programs-item__total ">
+                            <span class="programs-item__total-text ">Всего:</span>
+                            <span class="programs-item__total-num h3 ">56 часов</span>
+                        </div>
+                        <div class="programs-item__price ">
+                            <span class="programs-item__price-text ">Стоимость:</span>
+                            <span class="programs-item__price-num h3 ">11000 ₴</span>
+                        </div>
+                        <div class="programs-item__price ">
+                            <span class="programs-item__price-text ">
 									При оплате частями:
 								</span>
-						<span class="programs-item__price-num h3">12500 ₴</span>
-					</div>
-					<ul class="note">
-						<li>Занятия начинаются с момента формирования групп</li>
-						<li>Продолжительность одного занятия 2-3 часа</li>
-					</ul>
+                            <span class="programs-item__price-num h3 ">12500 ₴</span>
+                        </div>
+                        <ul class="note ">
+                            <li>Занятия начинаются с момента формирования групп</li>
+                            <li>Продолжительность одного занятия 2-3 часа</li>
+                        </ul>
 
-					<a
-							href=".popup-application3"
-							class="magnific-popup programs-item__btn btn"
-					>
+                        <a href=".popup-application3 " class="magnific-popup programs-item__btn btn ">
 						Заполнить заявку на обучение
 					</a>
-				</div>
-			</div>
-		</div>
-		<div class="programs-cards _online">
-			<div class="programs-item" data-aos="fade-up" data-aos-delay="300">
-				<div class="programs-item__textbox">
-					<div class="programs-item__title h3">Fashion иллюстрация</div>
-					<div class="programs-item__text">
-						Поможем освоить современные техники иллюстрации различными
-						инструментами - маркерами, акварелью и тушью. Научитесь рисовать
-						эскизы на высоком уровне, даже если никогда не занимались
-						рисованием.
-					</div>
-				</div>
-				<ul class="programs-item__list">
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                    </div>
+                </div>
+            </div>
+            <div class="programs-cards _online ">
+                <div class="programs-item " data-aos="fade-up " data-aos-delay="300 ">
+                    <div class="programs-item__textbox ">
+                        <div class="programs-item__title h3 ">Fashion иллюстрация</div>
+                        <div class="programs-item__text ">
+                            Поможем освоить современные техники иллюстрации различными инструментами - маркерами, акварелью и тушью. Научитесь рисовать эскизы на высоком уровне, даже если никогда не занимались рисованием.
+                        </div>
+                    </div>
+                    <ul class="programs-item__list ">
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									1. Фигура. Оформление собственного шаблона фигур
 								</span>
-						<span class="programs-item__time">5 ч.</span>
-					</li>
-					<li class="programs-item__row">
-						<span class="programs-item__name">2. Колористика</span>
-						<span class="programs-item__time">2 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">5 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">2. Колористика</span>
+                            <span class="programs-item__time ">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									3. Фактура, принты, детали одежды
 								</span>
-						<span class="programs-item__time">5 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">5 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									4. Передача теней, объёма
 								</span>
-						<span class="programs-item__time">2 ч.</span>
-					</li>
-					<li class="programs-item__row">
-						<span class="programs-item__name">5. Технический рисунок</span>
-						<span class="programs-item__time">2 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">5. Технический рисунок</span>
+                            <span class="programs-item__time ">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									6. Эскизы для закрепления тем лекций и работа над эскизами
 									выпускной коллекции
 								</span>
-					</li>
-				</ul>
-				<div class="programs-item__total">
-					<span class="programs-item__total-text">Всего:</span>
-					<span class="programs-item__total-num h3">16 часов</span>
-				</div>
-				<div class="programs-item__price">
-					<span class="programs-item__price-text">Стоимость:</span>
-					<span class="programs-item__price-num h3">4000 ₴</span>
-				</div>
-				<div class="programs-item__price">
-					<span class="programs-item__price-text">При оплате частями:</span>
-					<span class="programs-item__price-num h3">4600 ₴</span>
-				</div>
-				<ul class="note">
-					<li>Занятия начинаются с момента формирования групп</li>
-					<li>Продолжительность одного занятия 2-3 часа</li>
-				</ul>
-				<a
-						href=".popup-application4"
-						class="magnific-popup programs-item__btn dashed-btn"
-				>
+                        </li>
+                    </ul>
+                    <div class="programs-item__total ">
+                        <span class="programs-item__total-text ">Всего:</span>
+                        <span class="programs-item__total-num h3 ">16 часов</span>
+                    </div>
+                    <div class="programs-item__price ">
+                        <span class="programs-item__price-text ">Стоимость:</span>
+                        <span class="programs-item__price-num h3 ">4000 ₴</span>
+                    </div>
+                    <div class="programs-item__price ">
+                        <span class="programs-item__price-text ">При оплате частями:</span>
+                        <span class="programs-item__price-num h3 ">4600 ₴</span>
+                    </div>
+                    <ul class="note ">
+                        <li>Занятия начинаются с момента формирования групп</li>
+                        <li>Продолжительность одного занятия 2-3 часа</li>
+                    </ul>
+                    <a href=".popup-application4 " class="magnific-popup programs-item__btn dashed-btn ">
 					Заполнить заявку на обучение
 				</a>
-			</div>
-			<div class="programs-item" data-aos="fade-up" data-aos-delay="400">
-				<div class="programs-item__textbox">
-					<div class="programs-item__title h3">владелец бренда</div>
-					<div class="programs-item__text">
-						Курс для тех, кто планирует открыть свою ТМ или перезагрузить
-						действующий бизнес. Разберем проблемы с производственными
-						процессами, научимся готовиться к сезону и создавать одежду с
-						наименьшими потерями.
-					</div>
-				</div>
-				<ul class="programs-item__list">
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                </div>
+                <div class="programs-item " data-aos="fade-up " data-aos-delay="400 ">
+                    <div class="programs-item__textbox ">
+                        <div class="programs-item__title h3 ">владелец бренда</div>
+                        <div class="programs-item__text ">
+                            Курс для тех, кто планирует открыть свою ТМ или перезагрузить действующий бизнес. Разберем проблемы с производственными процессами, научимся готовиться к сезону и создавать одежду с наименьшими потерями.
+                        </div>
+                    </div>
+                    <ul class="programs-item__list ">
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									1. Основы швейного бизнеса. Вводное занятие
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row">
-						<span class="programs-item__name">2. Тренды</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row">
-						<span class="programs-item__name">3. Материаловедение</span>
-						<span class="programs-item__time">6 ч</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">2. Тренды</span>
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">3. Материаловедение</span>
+                            <span class="programs-item__time ">6 ч</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									4. Общее ознакомление с чертежами основ, снятие мерок
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									5. Структура швейного бизнеса
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									6. Маркетинг и продвижение собственного бренда
 								</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-				</ul>
-				<div class="programs-item__total">
-					<span class="programs-item__total-text">Всего:</span>
-					<span class="programs-item__total-num h3">24 часа</span>
-				</div>
-				<div class="programs-item__price">
-					<span class="programs-item__price-text">Стоимость:</span>
-					<span class="programs-item__price-num h3">7500 ₴</span>
-				</div>
-				<div class="programs-item__price">
-					<span class="programs-item__price-text">При оплате частями:</span>
-					<span class="programs-item__price-num h3">8000 ₴</span>
-				</div>
-				<ul class="note">
-					<li>Занятия начинаются с момента формирования групп</li>
-					<li>Продолжительность одного занятия 2-3 часа</li>
-				</ul>
-				<a
-						href=".popup-application5"
-						class="magnific-popup programs-item__btn dashed-btn"
-				>
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                    </ul>
+                    <div class="programs-item__total ">
+                        <span class="programs-item__total-text ">Всего:</span>
+                        <span class="programs-item__total-num h3 ">24 часа</span>
+                    </div>
+                    <div class="programs-item__price ">
+                        <span class="programs-item__price-text ">Стоимость:</span>
+                        <span class="programs-item__price-num h3 ">7500 ₴</span>
+                    </div>
+                    <div class="programs-item__price ">
+                        <span class="programs-item__price-text ">При оплате частями:</span>
+                        <span class="programs-item__price-num h3 ">8000 ₴</span>
+                    </div>
+                    <ul class="note ">
+                        <li>Занятия начинаются с момента формирования групп</li>
+                        <li>Продолжительность одного занятия 2-3 часа</li>
+                    </ul>
+                    <a href=".popup-application5 " class="magnific-popup programs-item__btn dashed-btn ">
 					Заполнить заявку на обучение
 				</a>
-			</div>
-			<div
-					class="programs-item _pro"
-					data-aos="fade-up"
-					data-aos-delay="500"
-					_pro
-			>
-				<div class="programs-item__textbox">
-					<div class="programs-item__title h3">Дизайнер - Профессионал</div>
-					<div class="programs-item__text">
-						Должность, которая не предусматривает навыки шитья. Научим
-						генерировать удачные идеи, прогнозировать будущие тренды и
-						создавать концептуальные коллекции, в которых есть уникальная
-						тема.
-					</div>
-				</div>
-				<ul class="programs-item__list">
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                </div>
+                <div class="programs-item _pro " data-aos="fade-up " data-aos-delay="500 " _pro>
+                    <div class="programs-item__textbox ">
+                        <div class="programs-item__title h3 ">Дизайнер - Профессионал</div>
+                        <div class="programs-item__text ">
+                            Должность, которая не предусматривает навыки шитья. Научим генерировать удачные идеи, прогнозировать будущие тренды и создавать концептуальные коллекции, в которых есть уникальная тема.
+                        </div>
+                    </div>
+                    <ul class="programs-item__list ">
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									1. Основы проектирования коллекции
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									2. Fashion-иллюстрация. Видео уроки с проверкой преподавателем
 									домашних заданий. Оформление собственного шаблона фигур
 								</span>
-						<span class="programs-item__time">9 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">9 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									3. История моды и архитектуры
 								</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-					<li class="programs-item__row">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">
 									4. Теория цвета, цветотипы внешности, психология цвета
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row">
-						<span class="programs-item__name">5. Законы композиции</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-						<span class="programs-item__name">6. Стилистика</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-						<span class="programs-item__name">7. Тренды</span>
-						<span class="programs-item__time">2 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-						<span class="programs-item__name">8. Материаловедение</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row ">
+                            <span class="programs-item__name ">5. Законы композиции</span>
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">6. Стилистика</span>
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">7. Тренды</span>
+                            <span class="programs-item__time ">2 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">8. Материаловедение</span>
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">
 									9. Общее ознакомление с чертежами основ, снятие мерок
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">
 									10. Структура швейного бизнеса
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">
 									11. Маркетинг и продвижение собственного бренда
 								</span>
-						<span class="programs-item__time">6 ч.</span>
-					</li>
-					<li class="programs-item__row programs-item__row-hidden">
-								<span class="programs-item__name">
+                            <span class="programs-item__time ">6 ч.</span>
+                        </li>
+                        <li class="programs-item__row programs-item__row-hidden ">
+                            <span class="programs-item__name ">
 									12. Составление мудборда по теме коллекции
 								</span>
-						<span class="programs-item__time">3 ч.</span>
-					</li>
-					<div class="programs-item__more">Показать еще</div>
-				</ul>
-				<div>
-					<div class="programs-item__total">
-						<span class="programs-item__total-text">Всего:</span>
-						<span class="programs-item__total-num h3">56 часов</span>
-					</div>
-					<div class="programs-item__price">
-						<span class="programs-item__price-text">Стоимость:</span>
-						<span class="programs-item__price-num h3">9500 ₴</span>
-					</div>
-					<div class="programs-item__price">
-								<span class="programs-item__price-text">
+                            <span class="programs-item__time ">3 ч.</span>
+                        </li>
+                        <div class="programs-item__more ">Показать еще</div>
+                    </ul>
+                    <div>
+                        <div class="programs-item__total ">
+                            <span class="programs-item__total-text ">Всего:</span>
+                            <span class="programs-item__total-num h3 ">56 часов</span>
+                        </div>
+                        <div class="programs-item__price ">
+                            <span class="programs-item__price-text ">Стоимость:</span>
+                            <span class="programs-item__price-num h3 ">9500 ₴</span>
+                        </div>
+                        <div class="programs-item__price ">
+                            <span class="programs-item__price-text ">
 									При оплате частями:
 								</span>
-						<span class="programs-item__price-num h3">11000 ₴</span>
-					</div>
-					<ul class="note">
-						<li>Занятия начинаются с момента формирования групп</li>
-						<li>Продолжительность одного занятия 2-3 часа</li>
-					</ul>
-					<a
-							href=".popup-application6"
-							class="magnific-popup programs-item__btn btn"
-					>
+                            <span class="programs-item__price-num h3 ">11000 ₴</span>
+                        </div>
+                        <ul class="note ">
+                            <li>Занятия начинаются с момента формирования групп</li>
+                            <li>Продолжительность одного занятия 2-3 часа</li>
+                        </ul>
+                        <a href=".popup-application6 " class="magnific-popup programs-item__btn btn ">
 						Заполнить заявку на обучение
 					</a>
-				</div>
-			</div>
-		</div>
+                    </div>
+                </div>
+            </div>
 
-		<a href=".popup-application9" class="programs__link light-btn magnific-popup">
+            <a href=".popup-application9 " class="programs__link light-btn magnific-popup ">
 			Перейти к оплате
 		</a>
 
-		<p class="oferta">
-			Нажимая на кнопку я согласен с условиями
-			<a href="docs/oferta.pdf" target="_blank">
+            <p class="oferta ">
+                Нажимая на кнопку я согласен с условиями
+                <a href="docs/oferta.pdf " target="_blank ">
 				договора оферты и правилами оплаты и возврата
 			</a>
-		</p>
-		<span class="programs__pay">
+            </p>
+            <span class="programs__pay ">
 					Оплата LiqPay:
-					<img src="img/icons/cards.svg" alt=""/>
+					<img src="img/icons/cards.svg " alt=" "/>
 				</span>
-	</div>
-</section>
+        </div>
+    </section>
 
-<section class="consultation">
-    <div class="container">
-        <div class="consultation-wrapper">
-            <div
-                    class="consultation-content"
-                    data-aos="fade-right"
-                    data-aos-delay="300"
-            >
-                <p class="consultation__subtitle">
-                    как создать собственный Бренд одежды?
-                </p>
-                <h2 class="h2 consultation__title">бесплатный вебинар</h2>
-                <p class="consultation__text">
-                    Приходите на бесплатный вебинар и узнайте, как стать
-                    востребованным дизайнером и выпускать успешные коллекции.
-                </p>
-                <a
-                        href=".popup-application8"
-                        class="magnific-popup btn consultation__link"
-                >
+    <section class="consultation ">
+        <div class="container ">
+            <div class="consultation-wrapper ">
+                <div class="consultation-content " data-aos="fade-right " data-aos-delay="300 ">
+                    <p class="consultation__subtitle ">
+                        как создать собственный Бренд одежды?
+                    </p>
+                    <h2 class="h2 consultation__title ">бесплатный вебинар</h2>
+                    <p class="consultation__text ">
+                        Приходите на бесплатный вебинар и узнайте, как стать востребованным дизайнером и выпускать успешные коллекции.
+                    </p>
+                    <a href=".popup-application8 " class="magnific-popup btn consultation__link ">
                     Оставить заявку
                 </a>
-            </div>
-            <div
-                    class="consultation-img"
-                    data-aos="fade-left"
-                    data-aos-delay="300"
-            >
-                <img src="img/consultation.png" alt=""/>
+                </div>
+                <div class="consultation-img " data-aos="fade-left " data-aos-delay="300 ">
+                    <img src="img/consultation.png " alt=" " />
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="achieve">
-    <div class="container">
-        <h2 class="h2 achieve__title">Наши достижения</h2>
-        <div class="achieve-wrapper">
-            <div class="achieve-main" data-aos="fade-up" data-aos-delay="300">
-                <div class="achieve-main__img">
-                    <img src="img/video1.jpg" alt=""/>
-                    <span class="achieve-main__date">2019</span>
-                    <a
-                            href="https://www.youtube.com/watch?v=7-Dtpcc_OZc"
-                            data-fancybox
-                            class="achieve-main__play"
-                    >
-                        <svg
-                                width="15"
-                                height="18"
-                                viewBox="0 0 15 18"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                        >
+    <section class="achieve ">
+        <div class="container ">
+            <h2 class="h2 achieve__title ">Наши достижения</h2>
+            <div class="achieve-wrapper ">
+                <div class="achieve-main " data-aos="fade-up " data-aos-delay="300 ">
+                    <div class="achieve-main__img ">
+                        <img src="img/video1.jpg " alt=" " />
+                        <span class="achieve-main__date ">2019</span>
+                        <a href="https://www.youtube.com/watch?v=7-Dtpcc_OZc " data-fancybox class="achieve-main__play ">
+                            <svg width="15 " height="18 " viewBox="0 0 15 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
                             <path
-                                    d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z"
-                                    fill="#D2C6BA"
+                                    d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z "
+                                    fill="#D2C6BA "
                             />
                         </svg>
-                    </a>
-                </div>
-                <div class="achieve-main__title">
-                    Показ выпускников школы Алины Смирновой вместе с Mersedes Benz
-                </div>
-                <div class="achieve-main__text">
-                    Для молодых дизайнеров важно первый опыт участия в показе.
-                    Современная и просторная локация способствует качеству
-                    мероприятия, мотивирует дизайнеров к созданию профессионального
-                    продукта и общению с потенциальным клиентом. Для мероприятия был
-                    выбран формат показа на подиуме, декорированном под автотрассу с
-                    разметкой и дорожными знаками. Символом успешного пути для
-                    дизайнеров выступала дорога в будущее.
-                </div>
-            </div>
-            <div class="achieve-aside">
-                <div
-                        class="achieve-aside__item"
-                        data-aos="fade-up"
-                        data-aos-delay="500"
-                >
-                    <div class="achieve-aside__img">
-                        <img src="img/video2.jpg" alt=""/>
-                        <span class="achieve-aside__date">2018</span>
-                        <a
-                                href="https://www.youtube.com/watch?v=mBDG3VN2apo"
-                                data-fancybox
-                                class="achieve-aside__play"
-                        >
-                            <svg
-                                    width="15"
-                                    height="18"
-                                    viewBox="0 0 15 18"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z"
-                                        fill="#D2C6BA"
-                                />
-                            </svg>
                         </a>
                     </div>
-                    <div class="achieve-aside__title">Видеоролик о выпуске 2018</div>
-                    <div class="achieve-aside__text">
-                        Накануне показа мы выпустили ролик о любимой группе, которая
-                        принимала участие в показе 2018 в Днепре.
+                    <div class="achieve-main__title ">
+                        Показ выпускников школы Алины Смирновой вместе с Mersedes Benz
+                    </div>
+                    <div class="achieve-main__text ">
+                        Для молодых дизайнеров важно первый опыт участия в показе. Современная и просторная локация способствует качеству мероприятия, мотивирует дизайнеров к созданию профессионального продукта и общению с потенциальным клиентом. Для мероприятия был выбран формат
+                        показа на подиуме, декорированном под автотрассу с разметкой и дорожными знаками. Символом успешного пути для дизайнеров выступала дорога в будущее.
                     </div>
                 </div>
-                <div
-                        class="achieve-aside__item"
-                        data-aos="fade-up"
-                        data-aos-delay="700"
-                >
-                    <div class="achieve-aside__img">
-                        <img src="img/video3.jpg" alt=""/>
-                        <span class="achieve-aside__date">2018</span>
-                        <a
-                                href="https://www.youtube.com/watch?v=UHB4bdlaGmM"
-                                data-fancybox
-                                class="achieve-aside__play"
-                        >
-                            <svg
-                                    width="15"
-                                    height="18"
-                                    viewBox="0 0 15 18"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                            >
+                <div class="achieve-aside ">
+                    <div class="achieve-aside__item " data-aos="fade-up " data-aos-delay="500 ">
+                        <div class="achieve-aside__img ">
+                            <img src="img/video2.jpg " alt=" " />
+                            <span class="achieve-aside__date ">2018</span>
+                            <a href="https://www.youtube.com/watch?v=mBDG3VN2apo " data-fancybox class="achieve-aside__play ">
+                                <svg width="15 " height="18 " viewBox="0 0 15 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
                                 <path
-                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z"
-                                        fill="#D2C6BA"
+                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z "
+                                        fill="#D2C6BA "
                                 />
                             </svg>
-                        </a>
+                            </a>
+                        </div>
+                        <div class="achieve-aside__title ">Видеоролик о выпуске 2018</div>
+                        <div class="achieve-aside__text ">
+                            Накануне показа мы выпустили ролик о любимой группе, которая принимала участие в показе 2018 в Днепре.
+                        </div>
                     </div>
-                    <div class="achieve-aside__title">Показ выпускников 2018</div>
-                    <div class="achieve-aside__text">
-                        Подиумная презентация коллекций наших выпускников на показе 2018
-                        года в Днепре.
-                    </div>
-                </div>
-                <div
-                        class="achieve-aside__item"
-                        data-aos="fade-up"
-                        data-aos-delay="300"
-                >
-                    <div class="achieve-aside__img">
-                        <img src="img/video4.jpg" alt=""/>
-                        <span class="achieve-aside__date">2019</span>
-                        <a
-                                href="https://www.youtube.com/watch?v=NoxzPeTrStw"
-                                data-fancybox
-                                class="achieve-aside__play"
-                        >
-                            <svg
-                                    width="15"
-                                    height="18"
-                                    viewBox="0 0 15 18"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                            >
+                    <div class="achieve-aside__item " data-aos="fade-up " data-aos-delay="700 ">
+                        <div class="achieve-aside__img ">
+                            <img src="img/video3.jpg " alt=" " />
+                            <span class="achieve-aside__date ">2018</span>
+                            <a href="https://www.youtube.com/watch?v=UHB4bdlaGmM " data-fancybox class="achieve-aside__play ">
+                                <svg width="15 " height="18 " viewBox="0 0 15 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
                                 <path
-                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z"
-                                        fill="#D2C6BA"
+                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z "
+                                        fill="#D2C6BA "
                                 />
                             </svg>
-                        </a>
+                            </a>
+                        </div>
+                        <div class="achieve-aside__title ">Показ выпускников 2018</div>
+                        <div class="achieve-aside__text ">
+                            Подиумная презентация коллекций наших выпускников на показе 2018 года в Днепре.
+                        </div>
                     </div>
-                    <div class="achieve-aside__title">
-                        Показ Dream Reality в Милане 2019 года
-                    </div>
-                    <div class="achieve-aside__text">
-                        Показ выпускников школы дизайнеров одежды Fashion Design Class в
-                        Милане
-                    </div>
-                </div>
-                <div
-                        class="achieve-aside__item"
-                        data-aos="fade-up"
-                        data-aos-delay="500"
-                >
-                    <div class="achieve-aside__img">
-                        <img src="img/video5.jpg" alt=""/>
-                        <span class="achieve-aside__date">2020</span>
-                        <a
-                                href="https://www.youtube.com/watch?v=0MSxBVs8wv8"
-                                data-fancybox
-                                class="achieve-aside__play"
-                        >
-                            <svg
-                                    width="15"
-                                    height="18"
-                                    viewBox="0 0 15 18"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                            >
+                    <div class="achieve-aside__item " data-aos="fade-up " data-aos-delay="300 ">
+                        <div class="achieve-aside__img ">
+                            <img src="img/video4.jpg " alt=" " />
+                            <span class="achieve-aside__date ">2019</span>
+                            <a href="https://www.youtube.com/watch?v=NoxzPeTrStw " data-fancybox class="achieve-aside__play ">
+                                <svg width="15 " height="18 " viewBox="0 0 15 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
                                 <path
-                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z"
-                                        fill="#D2C6BA"
+                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z "
+                                        fill="#D2C6BA "
                                 />
                             </svg>
-                        </a>
+                            </a>
+                        </div>
+                        <div class="achieve-aside__title ">
+                            Показ Dream Reality в Милане 2019 года
+                        </div>
+                        <div class="achieve-aside__text ">
+                            Показ выпускников школы дизайнеров одежды Fashion Design Class в Милане
+                        </div>
                     </div>
-                    <div class="achieve-aside__title">
-                        Репортаж о 12-летнем дизайнере-ученике Алины Смирновой
-                    </div>
-                    <div class="achieve-aside__text">
-                        Парень принял участие в показе, который прошел в Милане, со
-                        своей первой коллекцией, которую воплотил вместе со своим
-                        преподавателем.
+                    <div class="achieve-aside__item " data-aos="fade-up " data-aos-delay="500 ">
+                        <div class="achieve-aside__img ">
+                            <img src="img/video5.jpg " alt=" " />
+                            <span class="achieve-aside__date ">2020</span>
+                            <a href="https://www.youtube.com/watch?v=0MSxBVs8wv8 " data-fancybox class="achieve-aside__play ">
+                                <svg width="15 " height="18 " viewBox="0 0 15 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                                <path
+                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z "
+                                        fill="#D2C6BA "
+                                />
+                            </svg>
+                            </a>
+                        </div>
+                        <div class="achieve-aside__title ">
+                            Репортаж о 12-летнем дизайнере-ученике Алины Смирновой
+                        </div>
+                        <div class="achieve-aside__text ">
+                            Парень принял участие в показе, который прошел в Милане, со своей первой коллекцией, которую воплотил вместе со своим преподавателем.
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <a
-                href="https://www.youtube.com/channel/UCZyKHRqLJSqEguHrH346DcQ"
-                target="_blank"
-                class="light-btn achieve__link"
-        >
+            <a href="https://www.youtube.com/channel/UCZyKHRqLJSqEguHrH346DcQ " target="_blank " class="light-btn achieve__link ">
             Перейти на наш Youtube-канал
         </a>
-    </div>
-</section>
-
-<section class="reviews" id="reviews">
-    <div class="container">
-        <div class="reviews__title">
-            <h2 class="h2">Отзывы</h2>
-            <div class="reviews__sticker">
-                <span>наши</span>
-            </div>
         </div>
-        <div class="reviews-wrapper">
-            <div class="reviews-col">
-                <div class="reviews-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="reviews-item__img">
-                        <img src="img/review1.jpg" alt=""/>
-                        <a
-                                href="https://www.youtube.com/watch?v=jHF8G8RLSKM"
-                                data-fancybox
-                                class="reviews-item__play"
-                        >
-                            <svg
-                                    width="15"
-                                    height="18"
-                                    viewBox="0 0 15 18"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z"
-                                        fill="#D2C6BA"
-                                />
-                            </svg>
-                        </a>
-                        <div class="reviews-item__caption">
-                            <p class="reviews-item__name">
-                                Светлана Сапунова
-                                <span>Владелец ателье Sapunova Studio</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="reviews-item__text">
-                        Когда я шла к Алине, то знала, что я иду за творчеством. Я
-                        поняла, что в дизайне нет ничего страшного. Я начала создавать
-                        благодаря этой школе - это был самый яркий момент и я сделала
-                        кучу эскизов. Считаю, что у меня все получилось.
-                    </div>
-                </div>
-                <div class="reviews-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="reviews-item__img">
-                        <img src="img/review2.jpg" alt=""/>
-                        <a
-                                href="https://www.youtube.com/watch?v=AXuMJzvKvwM"
-                                data-fancybox
-                                class="reviews-item__play"
-                        >
-                            <svg
-                                    width="15"
-                                    height="18"
-                                    viewBox="0 0 15 18"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z"
-                                        fill="#D2C6BA"
-                                />
-                            </svg>
-                        </a>
-                        <div class="reviews-item__caption">
-                            <p class="reviews-item__name">
-                                Анна Спектор
-                                <span>Дизайнер бренда Anna Spector</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="reviews-item__text">
-                        С самого детства мысль о создании своей одежды меня никогда не
-                        покидала. Когда я думала о своем будущем, Алина Смирнова открыла
-                        свою школу и я туда пошла. Решила воспользоваться возможностью,
-                        проявить себя, развиваться и воплотить свою мечту в реальность.
-                    </div>
-                </div>
-                <div class="reviews-item" data-aos="fade-up" data-aos-delay="300">
-                    <div class="reviews-item__img">
-                        <img src="img/review3.jpg" alt=""/>
-                        <a
-                                href="https://www.youtube.com/watch?v=wEh0ECMZMC0"
-                                data-fancybox
-                                class="reviews-item__play"
-                        >
-                            <svg
-                                    width="15"
-                                    height="18"
-                                    viewBox="0 0 15 18"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z"
-                                        fill="#D2C6BA"
-                                />
-                            </svg>
-                        </a>
-                        <div class="reviews-item__caption">
-                            <p class="reviews-item__name">
-                                Надя Солоп
-                                <span>Дизайнер бренда by Nadya Solop</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="reviews-item__text">
-                        Школа Fashion Design Class помогла мне справиться с сомнениями и
-                        раскрыть в себе огромный потенциал многогранного таланта.
-                    </div>
+    </section>
+
+    <section class="reviews " id="reviews ">
+        <div class="container ">
+            <div class="reviews__title ">
+                <h2 class="h2 ">Отзывы</h2>
+                <div class="reviews__sticker ">
+                    <span>наши</span>
                 </div>
             </div>
-            <div class="reviews-col">
-                <div class="reviews-item" data-aos="fade-up" data-aos-delay="400">
-                    <div class="reviews-item__img">
-                        <img src="img/review4.jpg" alt=""/>
-                        <a
-                                href="https://www.youtube.com/watch?v=9OYHfA9ILCw"
-                                data-fancybox
-                                class="reviews-item__play"
-                        >
-                            <svg
-                                    width="15"
-                                    height="18"
-                                    viewBox="0 0 15 18"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                            >
+            <div class="reviews-wrapper ">
+                <div class="reviews-col ">
+                    <div class="reviews-item " data-aos="fade-up " data-aos-delay="300 ">
+                        <div class="reviews-item__img ">
+                            <img src="img/review1.jpg " alt=" " />
+                            <a href="https://www.youtube.com/watch?v=jHF8G8RLSKM " data-fancybox class="reviews-item__play ">
+                                <svg width="15 " height="18 " viewBox="0 0 15 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
                                 <path
-                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z"
-                                        fill="#D2C6BA"
+                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z "
+                                        fill="#D2C6BA "
                                 />
                             </svg>
-                        </a>
-                        <div class="reviews-item__caption">
-                            <p class="reviews-item__name">
-                                Татьяна Безус
-                                <span>
+                            </a>
+                            <div class="reviews-item__caption ">
+                                <p class="reviews-item__name ">
+                                    Светлана Сапунова
+                                    <span>Владелец ателье Sapunova Studio</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews-item__text ">
+                            Когда я шла к Алине, то знала, что я иду за творчеством. Я поняла, что в дизайне нет ничего страшного. Я начала создавать благодаря этой школе - это был самый яркий момент и я сделала кучу эскизов. Считаю, что у меня все получилось.
+                        </div>
+                    </div>
+                    <div class="reviews-item " data-aos="fade-up " data-aos-delay="300 ">
+                        <div class="reviews-item__img ">
+                            <img src="img/review2.jpg " alt=" " />
+                            <a href="https://www.youtube.com/watch?v=AXuMJzvKvwM " data-fancybox class="reviews-item__play ">
+                                <svg width="15 " height="18 " viewBox="0 0 15 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                                <path
+                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z "
+                                        fill="#D2C6BA "
+                                />
+                            </svg>
+                            </a>
+                            <div class="reviews-item__caption ">
+                                <p class="reviews-item__name ">
+                                    Анна Спектор
+                                    <span>Дизайнер бренда Anna Spector</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews-item__text ">
+                            С самого детства мысль о создании своей одежды меня никогда не покидала. Когда я думала о своем будущем, Алина Смирнова открыла свою школу и я туда пошла. Решила воспользоваться возможностью, проявить себя, развиваться и воплотить свою мечту в реальность.
+                        </div>
+                    </div>
+                    <div class="reviews-item " data-aos="fade-up " data-aos-delay="300 ">
+                        <div class="reviews-item__img ">
+                            <img src="img/review3.jpg " alt=" " />
+                            <a href="https://www.youtube.com/watch?v=wEh0ECMZMC0 " data-fancybox class="reviews-item__play ">
+                                <svg width="15 " height="18 " viewBox="0 0 15 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                                <path
+                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z "
+                                        fill="#D2C6BA "
+                                />
+                            </svg>
+                            </a>
+                            <div class="reviews-item__caption ">
+                                <p class="reviews-item__name ">
+                                    Надя Солоп
+                                    <span>Дизайнер бренда by Nadya Solop</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews-item__text ">
+                            Школа Fashion Design Class помогла мне справиться с сомнениями и раскрыть в себе огромный потенциал многогранного таланта.
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-col ">
+                    <div class="reviews-item " data-aos="fade-up " data-aos-delay="400 ">
+                        <div class="reviews-item__img ">
+                            <img src="img/review4.jpg " alt=" " />
+                            <a href="https://www.youtube.com/watch?v=9OYHfA9ILCw " data-fancybox class="reviews-item__play ">
+                                <svg width="15 " height="18 " viewBox="0 0 15 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                                <path
+                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z "
+                                        fill="#D2C6BA "
+                                />
+                            </svg>
+                            </a>
+                            <div class="reviews-item__caption ">
+                                <p class="reviews-item__name ">
+                                    Татьяна Безус
+                                    <span>
 											Имеет экономическое образование, давно мечтала стать
 											дизайнером одежды
 										</span>
-                            </p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews-item__text ">
+                            Я очень благодарна Алине, что мечта моя начала осуществляться, начала становиться реальностью. Появилась уверенность того, что я могу творить и я талантливый человек.
                         </div>
                     </div>
-                    <div class="reviews-item__text">
-                        Я очень благодарна Алине, что мечта моя начала осуществляться,
-                        начала становиться реальностью. Появилась уверенность того, что
-                        я могу творить и я талантливый человек.
-                    </div>
-                </div>
-                <div class="reviews-item" data-aos="fade-up" data-aos-delay="400">
-                    <div class="reviews-item__img">
-                        <img src="img/review5.jpg" alt=""/>
-                        <a
-                                href="https://www.youtube.com/watch?v=y3dUgugw2YE"
-                                data-fancybox
-                                class="reviews-item__play"
-                        >
-                            <svg
-                                    width="15"
-                                    height="18"
-                                    viewBox="0 0 15 18"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                            >
+                    <div class="reviews-item " data-aos="fade-up " data-aos-delay="400 ">
+                        <div class="reviews-item__img ">
+                            <img src="img/review5.jpg " alt=" " />
+                            <a href="https://www.youtube.com/watch?v=y3dUgugw2YE " data-fancybox class="reviews-item__play ">
+                                <svg width="15 " height="18 " viewBox="0 0 15 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
                                 <path
-                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z"
-                                        fill="#D2C6BA"
+                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z "
+                                        fill="#D2C6BA "
                                 />
                             </svg>
-                        </a>
-                        <div class="reviews-item__caption">
-                            <p class="reviews-item__name">
-                                Катя Войт
-                                <span>
+                            </a>
+                            <div class="reviews-item__caption ">
+                                <p class="reviews-item__name ">
+                                    Катя Войт
+                                    <span>
 											Дизайнер одежды и украшений, владелец бренда CORALLY
 										</span>
-                            </p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews-item__text ">
+                            было ощущение, что я иду к правильному человеку, который не только профессионал, но и близкий мне по духу. Произошла полная трансформация мышления и мнения. Поняла, что прежде всего важна форма и идея.
                         </div>
                     </div>
-                    <div class="reviews-item__text">
-                        было ощущение, что я иду к правильному человеку, который не
-                        только профессионал, но и близкий мне по духу. Произошла полная
-                        трансформация мышления и мнения. Поняла, что прежде всего важна
-                        форма и идея.
-                    </div>
-                </div>
-                <div class="reviews-item" data-aos="fade-up" data-aos-delay="400">
-                    <div class="reviews-item__img _last">
-                        <img src="img/review6.jpg" alt=""/>
-                        <a
-                                href="https://www.youtube.com/watch?v=op613D8wQ4M"
-                                data-fancybox
-                                class="reviews-item__play"
-                        >
-                            <svg
-                                    width="15"
-                                    height="18"
-                                    viewBox="0 0 15 18"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                            >
+                    <div class="reviews-item " data-aos="fade-up " data-aos-delay="400 ">
+                        <div class="reviews-item__img _last ">
+                            <img src="img/review6.jpg " alt=" " />
+                            <a href="https://www.youtube.com/watch?v=op613D8wQ4M " data-fancybox class="reviews-item__play ">
+                                <svg width="15 " height="18 " viewBox="0 0 15 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
                                 <path
-                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z"
-                                        fill="#D2C6BA"
+                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z "
+                                        fill="#D2C6BA "
                                 />
                             </svg>
-                        </a>
-                        <div class="reviews-item__caption _long">
-                            <p class="reviews-item__name">
-                                Соня Пелих
-                                <span>
+                            </a>
+                            <div class="reviews-item__caption _long ">
+                                <p class="reviews-item__name ">
+                                    Соня Пелих
+                                    <span>
 											Создала наибольшее количество коллекций за период
 											обучения, лауреат многих международных конкурсов молодых
 											дизайнеров
 										</span>
-                            </p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews-item__text ">
+                            Алиночка, хочу поблагодарить Вас за вашу школу. Вы научили меня всему, что нужно и что хотела. Вы - мой первый и лучший учитель, которому я буду всегда благодарна.
                         </div>
                     </div>
-                    <div class="reviews-item__text">
-                        Алиночка, хочу поблагодарить Вас за вашу школу. Вы научили меня
-                        всему, что нужно и что хотела. Вы - мой первый и лучший учитель,
-                        которому я буду всегда благодарна.
-                    </div>
-                </div>
-                <div class="reviews-item reviews-item__hidden">
-                    <div class="reviews-item__img">
-                        <img src="img/review5.jpg" alt=""/>
-                        <a
-                                href="https://www.youtube.com/watch?v=y3dUgugw2YE"
-                                data-fancybox
-                                class="reviews-item__play"
-                        >
-                            <svg
-                                    width="15"
-                                    height="18"
-                                    viewBox="0 0 15 18"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                            >
+                    <div class="reviews-item reviews-item__hidden ">
+                        <div class="reviews-item__img ">
+                            <img src="img/review5.jpg " alt=" " />
+                            <a href="https://www.youtube.com/watch?v=y3dUgugw2YE " data-fancybox class="reviews-item__play ">
+                                <svg width="15 " height="18 " viewBox="0 0 15 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
                                 <path
-                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z"
-                                        fill="#D2C6BA"
+                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z "
+                                        fill="#D2C6BA "
                                 />
                             </svg>
-                        </a>
-                        <div class="reviews-item__caption">
-                            <p class="reviews-item__name">
-                                Катя Войт
-                                <span>
+                            </a>
+                            <div class="reviews-item__caption ">
+                                <p class="reviews-item__name ">
+                                    Катя Войт
+                                    <span>
 											Дизайнер одежды и украшений, владелец бренда CORALLY
 										</span>
-                            </p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews-item__text ">
+                            было ощущение, что я иду к правильному человеку, которая не только профессионал, но и близкая мне по духу. Произошла полная трансформация мышления и мнения. Поняла, что прежде всего важна форма и идея.
                         </div>
                     </div>
-                    <div class="reviews-item__text">
-                        было ощущение, что я иду к правильному человеку, которая не
-                        только профессионал, но и близкая мне по духу. Произошла полная
-                        трансформация мышления и мнения. Поняла, что прежде всего важна
-                        форма и идея.
-                    </div>
-                </div>
-                <div class="reviews-item reviews-item__hidden">
-                    <div class="reviews-item__img _last">
-                        <img src="img/review6.jpg" alt=""/>
-                        <a
-                                href="https://www.youtube.com/watch?v=op613D8wQ4M"
-                                data-fancybox
-                                class="reviews-item__play"
-                        >
-                            <svg
-                                    width="15"
-                                    height="18"
-                                    viewBox="0 0 15 18"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                            >
+                    <div class="reviews-item reviews-item__hidden ">
+                        <div class="reviews-item__img _last ">
+                            <img src="img/review6.jpg " alt=" " />
+                            <a href="https://www.youtube.com/watch?v=op613D8wQ4M " data-fancybox class="reviews-item__play ">
+                                <svg width="15 " height="18 " viewBox="0 0 15 18 " fill="none " xmlns="http://www.w3.org/2000/svg ">
                                 <path
-                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z"
-                                        fill="#D2C6BA"
+                                        d="M15 9L-8.15666e-07 17.6603L-5.85621e-08 0.339745L15 9Z "
+                                        fill="#D2C6BA "
                                 />
                             </svg>
-                        </a>
-                        <div class="reviews-item__caption _long">
-                            <p class="reviews-item__name">
-                                Соня Пелих
-                                <span>
+                            </a>
+                            <div class="reviews-item__caption _long ">
+                                <p class="reviews-item__name ">
+                                    Соня Пелих
+                                    <span>
 											Создала наибольшее количество коллекций за период
 											обучения, лауреат многих международных конкурсов молодых
 											дизайнеров
 										</span>
-                            </p>
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="reviews-item__text">
-                        Алиночка, хочу поблагодарить Вас за вашу школу. Вы научили меня
-                        всему, что нужно и что хотела. Вы - мой первый и лучший учитель,
-                        которому я буду всегда благодарна.
+                        <div class="reviews-item__text ">
+                            Алиночка, хочу поблагодарить Вас за вашу школу. Вы научили меня всему, что нужно и что хотела. Вы - мой первый и лучший учитель, которому я буду всегда благодарна.
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="light-btn reviews__more ">Показать еще</div>
         </div>
-        <div class="light-btn reviews__more">Показать еще</div>
-    </div>
-</section>
+    </section>
 
-<section class="subscribe">
-    <div class="container">
-        <h2 class="h2 subscribe__title">
-            Подписывайтесь на INSTAGRAM и Tiktok
-        </h2>
-        <p class="subscribe__subtitle">
-            Делимся секретами, лайфхаками и практическими советами
-        </p>
-        <div class="subscribe-wrapper">
-            <div class="subscribe-inst" data-aos="fade-up" data-aos-delay="600">
-                <div class="subscribe-inst__heading">
-                    <a
-                            href="https://www.instagram.com/fashion_design_class/?utm_medium=copy_link"
-                            target="_blank"
-                            class="subscribe-inst__logo"
-                    >
-                        <img src="img/icons/inst.svg" alt=""/>
-                    </a>
-                    <div class="subscribe-inst__text">
-                        <a
-                                href="https://www.instagram.com/fashion_design_class/?utm_medium=copy_link"
-                                target="_blank"
-                                class="subscribe-inst__link"
-                        >
+    <section class="subscribe ">
+        <div class="container ">
+            <h2 class="h2 subscribe__title ">
+                Подписывайтесь на INSTAGRAM и Tiktok
+            </h2>
+            <p class="subscribe__subtitle ">
+                Делимся секретами, лайфхаками и практическими советами
+            </p>
+            <div class="subscribe-wrapper ">
+                <div class="subscribe-inst " data-aos="fade-up " data-aos-delay="600 ">
+                    <div class="subscribe-inst__heading ">
+                        <a href="https://www.instagram.com/fashion_design_class/?utm_medium=copy_link " target="_blank " class="subscribe-inst__logo ">
+                            <img src="img/icons/inst.svg " alt=" " />
+                        </a>
+                        <div class="subscribe-inst__text ">
+                            <a href="https://www.instagram.com/fashion_design_class/?utm_medium=copy_link " target="_blank " class="subscribe-inst__link ">
                             Fashion_design_class
                         </a>
-                        <span class="subscribe-inst__caption">
+                            <span class="subscribe-inst__caption ">
 									Школа Дизайнеров Одежды
 								</span>
-                    </div>
-                </div>
-                <div class="subscribe-inst__box">
-                    <div class="subscribe-inst__inner">
-                        <div class="subscribe-inst__img">
-                            <img src="img/subscribe1.jpg" alt=""/>
-                        </div>
-                        <div class="subscribe-inst__img">
-                            <img src="img/subscribe2.jpg" alt=""/>
-                        </div>
-                        <div class="subscribe-inst__img">
-                            <img src="img/subscribe3.jpg" alt=""/>
-                        </div>
-                        <div class="subscribe-inst__img">
-                            <img src="img/subscribe4.jpg" alt=""/>
-                        </div>
-                        <div class="subscribe-inst__img">
-                            <img src="img/subscribe5.jpg" alt=""/>
-                        </div>
-                        <div class="subscribe-inst__img">
-                            <img src="img/subscribe6.jpg" alt=""/>
                         </div>
                     </div>
-                </div>
-                <a
-                        href="https://www.instagram.com/fashion_design_class/?utm_medium=copy_link"
-                        target="_blank"
-                        class="subscribe-inst__btn btn"
-                >
+                    <div class="subscribe-inst__box ">
+                        <div class="subscribe-inst__inner ">
+                            <div class="subscribe-inst__img ">
+                                <img src="img/subscribe1.jpg " alt=" " />
+                            </div>
+                            <div class="subscribe-inst__img ">
+                                <img src="img/subscribe2.jpg " alt=" " />
+                            </div>
+                            <div class="subscribe-inst__img ">
+                                <img src="img/subscribe3.jpg " alt=" " />
+                            </div>
+                            <div class="subscribe-inst__img ">
+                                <img src="img/subscribe4.jpg " alt=" " />
+                            </div>
+                            <div class="subscribe-inst__img ">
+                                <img src="img/subscribe5.jpg " alt=" " />
+                            </div>
+                            <div class="subscribe-inst__img ">
+                                <img src="img/subscribe6.jpg " alt=" " />
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://www.instagram.com/fashion_design_class/?utm_medium=copy_link " target="_blank " class="subscribe-inst__btn btn ">
                     Подписаться на Instagram
                 </a>
-            </div>
-            <div class="subscribe-tiktok" data-aos="fade-up" data-aos-delay="800">
-                <div class="subscribe-tiktok__heading">
-                    <a
-                            href="https://vm.tiktok.com/ZMRdbnXdN/"
-                            target="_blank"
-                            class="subscribe-tiktok__logo"
-                    >
-                        <img src="img/icons/tiktok.svg" alt=""/>
-                    </a>
-                    <div class="subscribe-tiktok__text">
-                        <a
-                                href="https://vm.tiktok.com/ZMRdbnXdN/"
-                                target="_blank"
-                                class="subscribe-tiktok__link"
-                        >
+                </div>
+                <div class="subscribe-tiktok " data-aos="fade-up " data-aos-delay="800 ">
+                    <div class="subscribe-tiktok__heading ">
+                        <a href="https://vm.tiktok.com/ZMRdbnXdN/ " target="_blank " class="subscribe-tiktok__logo ">
+                            <img src="img/icons/tiktok.svg " alt=" " />
+                        </a>
+                        <div class="subscribe-tiktok__text ">
+                            <a href="https://vm.tiktok.com/ZMRdbnXdN/ " target="_blank " class="subscribe-tiktok__link ">
                             Fashion_design_class
                         </a>
-                        <span class="subscribe-tiktok__caption">Alina Smirnova</span>
+                            <span class="subscribe-tiktok__caption ">Alina Smirnova</span>
+                        </div>
                     </div>
-                </div>
-                <div class="subscribe-tiktok__box">
-                    <div class="subscribe-tiktok__img">
-                        <a
-                                href="video/fashion_design_class - 7000579074661813509.mp4"
-                                data-fancybox
-                        >
-                            <img src="img/subscribe7.jpg" alt=""/>
-                        </a>
+                    <div class="subscribe-tiktok__box ">
+                        <div class="subscribe-tiktok__img ">
+                            <a href="video/fashion_design_class - 7000579074661813509.mp4 " data-fancybox>
+                                <img src="img/subscribe7.jpg " alt=" " />
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <a
-                        href="https://vm.tiktok.com/ZMRdbnXdN/"
-                        target="_blank"
-                        class="subscribe-tiktok__btn light-btn"
-                >
+                    <a href="https://vm.tiktok.com/ZMRdbnXdN/ " target="_blank " class="subscribe-tiktok__btn light-btn ">
                     Подписаться на Tiktok
                 </a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="pay">
-    <div class="container">
-        <h2 class="h2 pay__title" data-aos="fade-up" data-aos-delay="300">
-            Один шаг - и мечты станут реальностью
-        </h2>
-        <p class="pay__text" data-aos="fade-up" data-aos-delay="400">
-            Поможем освоить профессию fasion-дизайнера и начатую собственную
-            карьеру.
-        </p>
-        <div class="pay__row" data-aos="fade-up" data-aos-delay="500">
-            <a href=".popup-application9" class="btn pay__btn magnific-popup">Оплатить курс</a>
-            <div class="pay__cards pay__cards_desk">
-                <span class="pay__cards-text">Оплата LiqPay:</span>
-                <img src="img/icons/cards.svg" alt="" class="pay__cards-img"/>
+    <section class="pay ">
+        <div class="container ">
+            <h2 class="h2 pay__title " data-aos="fade-up " data-aos-delay="300 ">
+                Один шаг - и мечты станут реальностью
+            </h2>
+            <p class="pay__text " data-aos="fade-up " data-aos-delay="400 ">
+                Поможем освоить профессию fasion-дизайнера и начатую собственную карьеру.
+            </p>
+            <div class="pay__row " data-aos="fade-up " data-aos-delay="500 ">
+                <a href=".popup-application9 " class="btn pay__btn magnific-popup ">Оплатить курс</a>
+                <div class="pay__cards pay__cards_desk ">
+                    <span class="pay__cards-text ">Оплата LiqPay:</span>
+                    <img src="img/icons/cards.svg " alt=" " class="pay__cards-img " />
+                </div>
             </div>
-        </div>
 
-        <p class="oferta _text-left">
-            Нажимая на кнопку я согласен с условиями
-            <a href="docs/oferta.pdf" target="_blank">
+            <p class="oferta _text-left ">
+                Нажимая на кнопку я согласен с условиями
+                <a href="docs/oferta.pdf " target="_blank ">
                 договора оферты и правилами оплаты и возврата
             </a>
-        </p>
+            </p>
 
-        <div class="pay__cards pay__cards_mob">
-            <span class="pay__cards-text">Оплата LiqPay:</span>
-            <img src="img/icons/cards.svg" alt="" class="pay__cards-img"/>
-        </div>
-
-        <div class="pay__img" data-aos="fade-up" data-aos-delay="600">
-            <img src="img/pay.png" alt=""/>
-        </div>
-    </div>
-</section>
-<footer class="footer">
-    <div class="footer-mobile">
-        <a href="#" class="footer-mobile__logo">
-            <img src="img/icons/logo.svg" alt=""/>
-        </a>
-        <p class="footer-mobile__text">
-            Fashion design class
-            <br/>
-            of Alina Smirnova
-        </p>
-    </div>
-    <div class="container">
-        <div class="footer__inner">
-            <div class="footer-logo">
-                <a href="#" class="footer-logo__link">
-                    <img src="img/icons/logo.svg" alt="логотип"/>
-                </a>
+            <div class="pay__cards pay__cards_mob ">
+                <span class="pay__cards-text ">Оплата LiqPay:</span>
+                <img src="img/icons/cards.svg " alt=" " class="pay__cards-img " />
             </div>
 
-            <nav class="footer-nav">
-                <a href="#plan" class="footer-nav__link">О курсе</a>
-                <a href="#about" class="footer-nav__link">О нас</a>
-                <a href="#programs" class="footer-nav__link">Тарифы</a>
-                <a href="#reviews" class="footer-nav__link">Отзывы</a>
-            </nav>
-            <div class="footer-contacts">
-                <div class="footer-tel">
-                    <a href="tel:+380687456623" class="footer-tel__link">
+            <div class="pay__img " data-aos="fade-up " data-aos-delay="600 ">
+                <img src="img/pay.png " alt=" " />
+            </div>
+        </div>
+    </section>
+    <footer class="footer ">
+        <div class="footer-mobile ">
+            <a href="# " class="footer-mobile__logo ">
+                <img src="img/icons/logo.svg " alt=" " />
+            </a>
+            <p class="footer-mobile__text ">
+                Fashion design class
+                <br/> of Alina Smirnova
+            </p>
+        </div>
+        <div class="container ">
+            <div class="footer__inner ">
+                <div class="footer-logo ">
+                    <a href="# " class="footer-logo__link ">
+                        <img src="img/icons/logo.svg " alt="логотип " />
+                    </a>
+                </div>
+
+                <nav class="footer-nav ">
+                    <a href="#plan " class="footer-nav__link ">О курсе</a>
+                    <a href="#about " class="footer-nav__link ">О нас</a>
+                    <a href="#programs " class="footer-nav__link ">Тарифы</a>
+                    <a href="#reviews " class="footer-nav__link ">Отзывы</a>
+                </nav>
+                <div class="footer-contacts ">
+                    <div class="footer-tel ">
+                        <a href="tel:+380687456623 " class="footer-tel__link ">
                         +380 504 800 015
                     </a>
-                    <a href="tel:+380677744910" class="footer-tel__link">
+                        <a href="tel:+380677744910 " class="footer-tel__link ">
                         +380 677 744 910
                     </a>
-                </div>
-                <a
-                        href=".popup-call"
-                        class="magnific-popup footer-feedback dashed-btn"
-                >
+                    </div>
+                    <a href=".popup-call " class="magnific-popup footer-feedback dashed-btn ">
                     Обратная связь
                 </a>
-                <div class="footer-lang">
-                    <a href="#" class="footer-lang__item _active">RU</a>
-                    <a href="index.html" class="footer-lang__item">UA</a>
+                    <div class="footer-lang ">
+                        <a href="# " class="footer-lang__item _active ">RU</a>
+                        <a href="index.html " class="footer-lang__item ">UA</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="footer-copyrights">Copyright. Все права защищены.</div>
-</footer>
+        <div class="footer-copyrights ">Copyright. Все права защищены.</div>
+    </footer>
 
-<script src="libs/aos.js"></script>
+    <script src="libs/aos.js "></script>
 </body>
+
 </html>
