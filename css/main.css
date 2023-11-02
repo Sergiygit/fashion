@@ -918,6 +918,26 @@ body.scroll_disable {
     position: relative;
 }
 
+.consultation-date {
+    margin-bottom: 44px;
+    font-style: normal;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'SK-Primo';
+    font-size: 26.25px;
+    font-style: normal;
+    font-weight: 770;
+    line-height: 150%;
+}
+
+.consultation-date span {
+    font-family: Raleway;
+    opacity: .5;
+    font-weight: 200;
+    color: #fff;
+    font-size: 18px;
+}
+
 .consultation-content::before {
     content: '';
     background: radial-gradient(50% 50% at 50% 50%, #D42B47 0%, rgba(212, 43, 71, 0) 100%);
@@ -974,6 +994,7 @@ body.scroll_disable {
 
 .consultation__text {
     max-width: 640px;
+    font-family: Raleway;
     font-weight: normal;
     font-size: 18px;
     line-height: 27px;
@@ -2317,8 +2338,6 @@ body.scroll_disable {
     color: #D2C6BA;
     line-height: 1.5;
     font-size: 16px;
-    position: relative;
-    z-index: 2;
 }
 
 .oferta._text-left {
